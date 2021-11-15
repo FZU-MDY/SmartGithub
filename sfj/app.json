@@ -1,0 +1,16 @@
+{
+  "pages":["pages/member_operation/member_operation",
+    "pages/invite_member/invite_member",
+    "pages/create_organization/create_organization",
+    
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Weixin",
+    "navigationBarTextStyle":"black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
