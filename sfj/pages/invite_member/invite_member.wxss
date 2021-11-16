@@ -1,0 +1,217 @@
+.background_image{
+  width: 100%;
+  filter: brightness(70%);
+}
+
+.Your_organizations{
+  top: 21%;
+  left: 81.5%;
+  position: absolute;
+  font-size: 7px;
+  height: 1.5%;
+  line-height: 50%;
+  padding-left: 1.0%;
+  word-break:keep-all;     
+  white-space:nowrap; 
+  color: gray;
+  border: 1px solid red; 
+  border-radius: 2px;  
+  background-color: white;
+}
+.Your_organizations text{
+  display: table-cell;
+}
+.MDY_TEAM{
+  top: 17.5%;
+  left: 33.5%;
+  position: absolute;
+  font-size: 6px;
+  height: 0.01%;
+  line-height: 50%;
+  margin-left: 0rpx;
+  padding-left: 0rpx;
+  word-break:keep-all;     
+  white-space:nowrap; 
+  color: blue;
+  border: 1px solid red; 
+  border-radius: 2px;  
+  background-color: white;
+}
+.MDY_TEAM text{
+  display: table-cell;
+}
+.text_MDY_TEAM{
+  top: 17.5%;
+  left: 42%;
+  position: absolute;
+  font-size: 15px;
+  color: blue;
+}
+.invite_someone{
+  top: 42.5%;
+  left: 74.5%;
+  position: absolute;
+  font-size: 9px;
+  height: 2%;
+  line-height: 50%;
+  padding-left: 0rpx;
+  word-break:keep-all;     
+  white-space:nowrap; 
+  color: rgb(82, 79, 79);
+  border: 1px solid red; 
+  border-radius: 2px;  
+  background-color: white;
+}
+.invite_someone text{
+  display: table-cell;
+}
+.invite{
+  top: 32.5%;
+  left: 66%;
+  position: absolute;
+  font-size: 9px;
+  height: 5%;
+  line-height: 50%;
+  padding-left: 0.7%;
+  word-break:keep-all;     
+  white-space:nowrap; 
+  color: white;
+  border: 1px solid red; 
+  border-radius: 2px;  
+  background-color: green;
+}
+.invite text{
+  display: table-cell;
+}
+.input_member{
+  top: 32.4%;
+  left: 29.5%;
+  position: absolute;
+  height: 1.6%;
+  border: 5px solid lightpink;
+  border-width: 2px;
+  font-size: 8px;
+  background-color: white;
+}
+.text_invite{
+  top: 27.5%;
+  left: 26%;
+  position: absolute;
+  font-size: 15px;
+  color: blue;
+}
+.send_invitation{
+  top: 74%;
+  left: 44%;
+  position: absolute;
+  font-size: 9px;
+  height: 5%;
+  line-height: 50%;
+  margin-left: 1.1%;
+  padding-left: 1.1%;
+  word-break:keep-all;     
+  white-space:nowrap; 
+  color: white;
+  border: 1px solid red; 
+  border-radius: 2px;  
+  background-color: green;
+}
+.send_invitation text{
+  display: table-cell;
+}
+.settings{
+  top: 24.1%;
+  left: 54.8%;
+  position: absolute;
+  font-size: 7px;
+  height: 3%;
+  line-height: 50%;
+  margin-left: 0rpx;
+  padding-left: 0rpx;
+  word-break:keep-all;     
+  white-space:nowrap; 
+  color: gray;
+  border: 1px solid red; 
+  border-radius: 2px;  
+  background-color: white;
+}
+.settings text{
+  display: table-cell;
+}
+.text_settings{
+  top: 19%;
+  left: 8.7%;
+  position: absolute;
+  font-size: 15px;
+  color: blue;
+}
+.member_privileges{
+  top: 16%;
+  left: 10%;
+  position: absolute;
+  font-size: 7px;
+  height: 2%;
+  line-height: 50%;
+  padding-left: 1%;
+  word-break:keep-all;     
+  white-space:nowrap; 
+  color: gray;
+  border: 1px solid red; 
+  border-radius: 2px;  
+  background-color: white;
+}
+.member_privileges text{
+  display: table-cell;
+}
+.text_read{
+  top: 16%;
+  left: 39%;
+  position: absolute;
+  font-size: 15px;
+  color: blue;
+}
+
+.wrapper {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  /* margin: -250px 0 0 -250px; */
+}   
+.circle {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin: -15px 0 0 -4px;
+  background:  center center no-repeat;
+  animation: circleHide 1s ease infinite both;
+}
+.finger {
+  background: center center no-repeat;
+  margin: 0 0 0 6px;
+  animation: fingerHandle 1s ease infinite both;
+}
+@keyframes fingerHandle {
+  0% {
+      transform: none;
+  }
+  70% {
+      transform: scale3d(.8, .8, .8);
+  }
+  100% {
+      transform: none;
+  }
+}
+@keyframes circleHide {
+  0% {
+      opacity: 0;
+      transform: scale3d(0, 0, 0);
+  }
+  70% {
+      opacity: 1;
+      transform: scale3d(1.0, 1.0, 1.0);
+  }
+  100% {
+      opacity: 0;
+      transform: scale3d(0, 0, 0);
+  }
+}
