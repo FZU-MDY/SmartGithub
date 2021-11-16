@@ -1,0 +1,223 @@
+/* pages/test/test.wxss */
+.background_image{
+  width: 100%;
+  filter: brightness(70%);
+}
+/* input{
+  font-size:20px;
+  height:30px;
+  top:20px;
+}
+.username{
+  color: #000000;
+  font-size: 10px;
+} */
+.input1{
+  top: 5%;
+  left: 1.5%;
+  position: absolute;
+  height: 3.2%;
+  min-height: 3.2%;
+  border: 5px solid rgb(173, 161, 163);
+  border-width: 2px;
+  font-size: 9px;
+  color: beige;
+}
+.annotation1{
+  top: 5%;
+  left: 58%;
+  position: absolute;
+  font-size: 11px;
+  color: blue;
+}
+.ok1button{
+  top: 5%;
+  left: 47%;
+  position: absolute;
+  height: 4%;
+  line-height: 5%;
+  background-color: rgb(127, 127, 133);
+  color: rgb(0, 0, 0);
+  font-size: 10px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+.input2{
+  top: 13%;
+  left: 1.5%;
+  position: absolute;
+  height: 3.2%;
+  min-height: 3.2%;
+  border: 5px solid rgb(173, 161, 163);
+  border-width: 2px;
+  font-size: 9px;
+  color: beige;
+}
+.annotation2{
+  top: 13%;
+  left: 58%;
+  position: absolute;
+  font-size: 11px;
+  color: blue;
+}
+.ok2button{
+  top: 13%;
+  left: 47%;
+  position: absolute;
+  height: 4%;
+  line-height: 5%;
+  background-color: rgb(127, 127, 133);
+  color: rgb(0, 0, 0);
+  font-size: 10px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+.input3{
+  top: 19.7%;
+  left: 1.5%;
+  position: absolute;
+  height: 3.2%;
+  min-height: 3.2%;
+  border: 5px solid rgb(173, 161, 163);
+  border-width: 2px;
+  font-size: 9px;
+  color: beige;
+}
+.annotation3{
+  top: 19.7%;
+  left: 58%;
+  position: absolute;
+  font-size: 11px;
+  color: blue;
+}
+.ok3button{
+  top: 19.7%;
+  left: 47%;
+  position: absolute;
+  height: 4%;
+  line-height: 5%;
+  background-color: rgb(127, 127, 133);
+  color: rgb(0, 0, 0);
+  font-size: 10px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+.elsepagebutton{
+  top: 36%;
+  left: 11.6%;
+  position: absolute;
+  font-size: 6px;
+  height: 1.8%;
+  line-height: 2%;
+  margin-left: 0.1%;
+  padding-left: 1.3%;
+  word-break:keep-all;     
+  white-space:nowrap; 
+  color: gray;
+  border: 1px solid red; 
+  border-radius: 2px;  
+  background-color: white;
+}
+.elsepagebutton text{
+  display: table-cell;
+}
+.SSHkeybutton{
+  top: 12%;
+  left: 80.5%;
+  position: absolute;
+  font-size: 6px;
+  height: 1.8%;
+  line-height: 2%;
+  margin-left: 0.1%;
+  padding-left: 0.1%;
+  word-break:keep-all;     
+  white-space:nowrap; 
+  color: gray;
+  border: 1px solid red; 
+  border-radius: 2px;  
+  background-color: white;
+}
+.input4{
+  top: 19.6%;
+  left: 31%;
+  position: absolute;
+  height: 2%;
+  min-height: 2%;
+  border: 1px solid rgb(248, 5, 45);
+  border-width: 1px;
+  font-size: 9px;
+  color: black;
+}
+.input5{
+  top: 25%;
+  left: 31%;
+  position: absolute;
+  height: 15.7%;
+  min-height: 15.7%;
+  border: 1px solid rgb(248, 5, 45);
+  border-width: 1px;
+  font-size: 9px;
+  color: black;
+}
+.annotation4{
+  top: 19.6%;
+  left: 67%;
+  position: absolute;
+  font-size: 11px;
+  color: blue;
+}
+.annotation5{
+  top: 42%;
+  left: 41%;
+  position: absolute;
+  font-size: 11px;
+  color: blue;
+}
+.wrapper {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  /* margin: -250px 0 0 -250px; */
+}   
+.circle {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin: -15px 0 0 -4px;
+  background:  center center no-repeat;
+  animation: circleHide 1s ease infinite both;
+}
+.finger {
+  background: center center no-repeat;
+  margin: 0 0 0 6px;
+  animation: fingerHandle 1s ease infinite both;
+}
+@keyframes fingerHandle {
+  0% {
+      transform: none;
+  }
+  70% {
+      transform: scale3d(.8, .8, .8);
+  }
+  100% {
+      transform: none;
+  }
+}
+@keyframes circleHide {
+  0% {
+      opacity: 0;
+      transform: scale3d(0, 0, 0);
+  }
+  70% {
+      opacity: 1;
+      transform: scale3d(1.0, 1.0, 1.0);
+  }
+  100% {
+      opacity: 0;
+      transform: scale3d(0, 0, 0);
+  }
+}
+
