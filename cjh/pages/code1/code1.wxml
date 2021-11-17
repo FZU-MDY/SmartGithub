@@ -1,0 +1,30 @@
+<!--pages/code1/code1.wxml-->
+<!--pages/teachpage/teachpage.wxml-->
+
+<view>
+<image class="bg-image" mode="scaleToFill" src="http://r.photo.store.qq.com/psc?/V13o297P0pKsa6/45NBuzDIW489QBoVep5mcRCTnuQAMH0zq4JdHDzfoODmyao0*oJ6nZXWVWdxCB.HPeZCQ*FeyB.Hfj.6nwt0We7bGqiYhSZcMLe4D2FWUJY!/r"></image>
+</view>
+<view>
+  <button bindtap="go2teach1" style="position:absolute;background:white;width: 90%;margin-top:15%;margin-left: 5%;color: #5E7972;border-radius: 50rpx;  font-size: 100%;">README.md</button>   
+</view>
+<view>
+  <button bindtap="go2teach2" style="position:absolute;background:white;width: 90%;margin-top:35%;margin-left: 5%;color: #5E7972;border-radius: 50rpx;  font-size: 100%;">WorkingTime.rar</button>   
+</view>
+<view>
+  <button bindtap="go2teach3" style="position:absolute;background:white;width: 90%;margin-top:55%;margin-left: 5%;color: #5E7972;border-radius: 50rpx;  font-size: 100%;">logo.png</button>   
+</view>
+<view>
+  <button bindtap="go2teach4" style="position:absolute;background:white;width: 90%;margin-top:75%;margin-left: 5%;color: #5E7972;border-radius: 50rpx;  font-size: 100%;">logo_WorkingTime.png</button>   
+</view>
+<view>
+  <button bindtap="go2teach5" style="position:absolute;background:white;width: 90%;margin-top:95%;margin-left: 5%;color: #5E7972;border-radius: 50rpx;  font-size: 100%;">logo_WorkingTime_Large.png</button>   
+</view>
+<view>
+  <button bindtap="go2teach6" style="position:absolute;background:white;width: 90%;margin-top:95%;margin-left: 5%;color: #5E7972;border-radius: 50rpx;  font-size: 100%;">git远程仓库</button>   
+</view>
+<view>
+  <button bindtap="go2teach7" style="position:absolute;background:white;width: 90%;margin-top:115%;margin-left: 5%;color: #5E7972;border-radius: 50rpx;  font-size: 100%;">公众号二维码.jpg</button>   
+</view>
+<view>
+  <button bindtap="go2teach8" style="position:absolute;background:white;width: 90%;margin-top:135%;margin-left: 5%;color: #5E7972;border-radius: 50rpx;  font-size: 100%;">小程序码.jpg</button>   
+</view>
