@@ -10,14 +10,11 @@
         </image>
         </view>
     </view>
-
     <view>
       <button bindtap="goinfo" style="position:absolute;background:rgb(218, 188, 154);width: 14%;top:61.5%;left: 30%;height:6.8%;color: white;border: 1px solid red;border-radius: 2px;background-color:transparent;"></button>   
     </view>
-
     <view style="position:absolute;background:rgb(218, 188, 154);width: 24.5%;top:61.5%;left: 4.5%;height:6%;color: white;border: 1px solid red;border-radius: 2px;background-color:transparent;">
     <input class="input1"  style="text-align: left;vertical-align: middle;" placeholder="cj2480928352@163.com"  placeholder-class="bgc"value="{{contentInput}}"  bindinput='EmailInput'></input>
     </view>
-
   </scroll-view> 
 </view>
