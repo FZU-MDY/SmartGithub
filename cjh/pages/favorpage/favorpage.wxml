@@ -1,0 +1,86 @@
+<!--pages/favorpage/favorpage.wxml-->
+<view>
+<image class="bg-image" mode="scaleToFill" src="http://r.photo.store.qq.com/psc?/V13o297P0pKsa6/45NBuzDIW489QBoVep5mcRVBY375RPVtQVL1IKVxCPTx1OzkPGirlm8oLy8cg5pJneOy68aBrT*qUHRWGp3ql.jzJ9*Yz.7Z7Is8XesveJ4!/r"></image>
+</view>
+
+<!--热点-->
+<view class='tapbtn0'>
+<button class="tapbtn" size="mini"plain="true" bindtap="go2repo1">
+    <image  class="c" src='http://m.qpic.cn/psc?/V13o297P0pKsa6/45NBuzDIW489QBoVep5mcVLic6DQzq*DdSxj70pcRrW*f5Ujcw6XoUhmlnEwUAfVvxXi1x1v85ySw.ePP7Od14mMgQn*CmRlvqbyncsfW.g!/b&bo=vwGAAL8BgAADFzI!&rf=viewer_4'></image></button></view>
+<view class='imagesize1'>
+  <image src="http://m.qpic.cn/psc?/V13o297P0pKsa6/45NBuzDIW489QBoVep5mcex9v65odxH1rY9xXTvAOvLmhJV.xIdAtrZlHMOJ.N2nXaHfh6YWT8j.TMt8.VgHUQXeRq1Bkp.XkKXN0cs6cEw!/b&bo=yADIAMgAyAADFzI!&rf=viewer_4" class='in-image'   >
+  </image>
+</view>
+<text class="type1">WorkerLivesMatter/WorkerLiveMatter</text>   
+<text class="type2">打工人的工作时间表</text>   
+
+<view class='tapbtn0'>
+<button class="tapbtn" size="mini"plain="true" bindtap="go2repo1">
+    <image  class="c" src='http://m.qpic.cn/psc?/V13o297P0pKsa6/45NBuzDIW489QBoVep5mcVLic6DQzq*DdSxj70pcRrW*f5Ujcw6XoUhmlnEwUAfVvxXi1x1v85ySw.ePP7Od14mMgQn*CmRlvqbyncsfW.g!/b&bo=vwGAAL8BgAADFzI!&rf=viewer_4'></image></button></view>
+<view class='imagesize1'>
+  <image src="http://m.qpic.cn/psc?/V13o297P0pKsa6/45NBuzDIW489QBoVep5mcex9v65odxH1rY9xXTvAOvLmhJV.xIdAtrZlHMOJ.N2nXaHfh6YWT8j.TMt8.VgHUQXeRq1Bkp.XkKXN0cs6cEw!/b&bo=yADIAMgAyAADFzI!&rf=viewer_4" class='in-image'   >
+  </image>
+</view>
+<text class="type1">WorkerLivesMatter/WorkerLiveMatter</text>   
+<text class="type2">打工人的工作时间表</text>   
+
+
+<view class='tapbtn0'>
+<button class="tapbtn" size="mini"plain="true" bindtap="go2repo1">
+    <image  class="c" src='http://m.qpic.cn/psc?/V13o297P0pKsa6/45NBuzDIW489QBoVep5mcVLic6DQzq*DdSxj70pcRrW*f5Ujcw6XoUhmlnEwUAfVvxXi1x1v85ySw.ePP7Od14mMgQn*CmRlvqbyncsfW.g!/b&bo=vwGAAL8BgAADFzI!&rf=viewer_4'></image></button></view>
+<view class='imagesize1'>
+  <image src="http://m.qpic.cn/psc?/V13o297P0pKsa6/45NBuzDIW489QBoVep5mcex9v65odxH1rY9xXTvAOvLmhJV.xIdAtrZlHMOJ.N2nXaHfh6YWT8j.TMt8.VgHUQXeRq1Bkp.XkKXN0cs6cEw!/b&bo=yADIAMgAyAADFzI!&rf=viewer_4" class='in-image'   >
+  </image>
+</view>
+<text class="type1">WorkerLivesMatter/WorkerLiveMatter</text>   
+<text class="type2">打工人的工作时间表</text>   
+
+<view class='tapbtn0'>
+<button class="tapbtn" size="mini"plain="true" bindtap="go2repo1">
+    <image  class="c" src='http://m.qpic.cn/psc?/V13o297P0pKsa6/45NBuzDIW489QBoVep5mcVLic6DQzq*DdSxj70pcRrW*f5Ujcw6XoUhmlnEwUAfVvxXi1x1v85ySw.ePP7Od14mMgQn*CmRlvqbyncsfW.g!/b&bo=vwGAAL8BgAADFzI!&rf=viewer_4'></image></button></view>
+<view class='imagesize1'>
+  <image src="http://m.qpic.cn/psc?/V13o297P0pKsa6/45NBuzDIW489QBoVep5mcex9v65odxH1rY9xXTvAOvLmhJV.xIdAtrZlHMOJ.N2nXaHfh6YWT8j.TMt8.VgHUQXeRq1Bkp.XkKXN0cs6cEw!/b&bo=yADIAMgAyAADFzI!&rf=viewer_4" class='in-image'   >
+  </image>
+</view>
+<text class="type1">WorkerLivesMatter/WorkerLiveMatter</text>   
+<text class="type2">打工人的工作时间表</text>   
+
+<view class='tapbtn0'>
+<button class="tapbtn" size="mini"plain="true" bindtap="go2repo1">
+    <image  class="c" src='http://m.qpic.cn/psc?/V13o297P0pKsa6/45NBuzDIW489QBoVep5mcVLic6DQzq*DdSxj70pcRrW*f5Ujcw6XoUhmlnEwUAfVvxXi1x1v85ySw.ePP7Od14mMgQn*CmRlvqbyncsfW.g!/b&bo=vwGAAL8BgAADFzI!&rf=viewer_4'></image></button></view>
+<view class='imagesize1'>
+  <image src="http://m.qpic.cn/psc?/V13o297P0pKsa6/45NBuzDIW489QBoVep5mcex9v65odxH1rY9xXTvAOvLmhJV.xIdAtrZlHMOJ.N2nXaHfh6YWT8j.TMt8.VgHUQXeRq1Bkp.XkKXN0cs6cEw!/b&bo=yADIAMgAyAADFzI!&rf=viewer_4" class='in-image'   >
+  </image>
+</view>
+<text class="type1">WorkerLivesMatter/WorkerLiveMatter</text>   
+<text class="type2">打工人的工作时间表</text>   
+
+<view class='tapbtn0'>
+<button class="tapbtn" size="mini"plain="true" bindtap="go2repo1">
+    <image  class="c" src='http://m.qpic.cn/psc?/V13o297P0pKsa6/45NBuzDIW489QBoVep5mcVLic6DQzq*DdSxj70pcRrW*f5Ujcw6XoUhmlnEwUAfVvxXi1x1v85ySw.ePP7Od14mMgQn*CmRlvqbyncsfW.g!/b&bo=vwGAAL8BgAADFzI!&rf=viewer_4'></image></button></view>
+<view class='imagesize1'>
+  <image src="http://m.qpic.cn/psc?/V13o297P0pKsa6/45NBuzDIW489QBoVep5mcex9v65odxH1rY9xXTvAOvLmhJV.xIdAtrZlHMOJ.N2nXaHfh6YWT8j.TMt8.VgHUQXeRq1Bkp.XkKXN0cs6cEw!/b&bo=yADIAMgAyAADFzI!&rf=viewer_4" class='in-image'   >
+  </image>
+</view>
+<text class="type1">WorkerLivesMatter/WorkerLiveMatter</text>   
+<text class="type2">打工人的工作时间表</text>   
+
+<view class='tapbtn0'>
+<button class="tapbtn" size="mini"plain="true" bindtap="go2repo1">
+    <image  class="c" src='http://m.qpic.cn/psc?/V13o297P0pKsa6/45NBuzDIW489QBoVep5mcVLic6DQzq*DdSxj70pcRrW*f5Ujcw6XoUhmlnEwUAfVvxXi1x1v85ySw.ePP7Od14mMgQn*CmRlvqbyncsfW.g!/b&bo=vwGAAL8BgAADFzI!&rf=viewer_4'></image></button></view>
+<view class='imagesize1'>
+  <image src="http://m.qpic.cn/psc?/V13o297P0pKsa6/45NBuzDIW489QBoVep5mcex9v65odxH1rY9xXTvAOvLmhJV.xIdAtrZlHMOJ.N2nXaHfh6YWT8j.TMt8.VgHUQXeRq1Bkp.XkKXN0cs6cEw!/b&bo=yADIAMgAyAADFzI!&rf=viewer_4" class='in-image'   >
+  </image>
+</view>
+<text class="type1">WorkerLivesMatter/WorkerLiveMatter</text>   
+<text class="type2">打工人的工作时间表</text>   
+
+<view class='tapbtn0'>
+<button class="tapbtn" size="mini"plain="true" bindtap="go2repo1">
+    <image  class="c" src='http://m.qpic.cn/psc?/V13o297P0pKsa6/45NBuzDIW489QBoVep5mcVLic6DQzq*DdSxj70pcRrW*f5Ujcw6XoUhmlnEwUAfVvxXi1x1v85ySw.ePP7Od14mMgQn*CmRlvqbyncsfW.g!/b&bo=vwGAAL8BgAADFzI!&rf=viewer_4'></image></button></view>
+<view class='imagesize1'>
+  <image src="http://m.qpic.cn/psc?/V13o297P0pKsa6/45NBuzDIW489QBoVep5mcex9v65odxH1rY9xXTvAOvLmhJV.xIdAtrZlHMOJ.N2nXaHfh6YWT8j.TMt8.VgHUQXeRq1Bkp.XkKXN0cs6cEw!/b&bo=yADIAMgAyAADFzI!&rf=viewer_4" class='in-image'   >
+  </image>
+</view>
+<text class="type1">WorkerLivesMatter/WorkerLiveMatter</text>   
+<text class="type2">打工人的工作时间表</text>   
