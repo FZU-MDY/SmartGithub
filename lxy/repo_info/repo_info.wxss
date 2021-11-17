@@ -1,0 +1,22 @@
+.background_image{
+  width: 100%;
+  filter: brightness(70%);
+}
+.bgc{
+  color:white;
+  font-size: 12rpx;
+}
+.input1 {
+  font-size: 15rpx;
+  color:white;
+}
+.word{
+  color: white;
+  position: relative;
+  z-index: 99;
+  text-align: center;
+  font-size: 17rpx;
+  /* color: whitesmoke; */
+  left: 440rpx;
+  bottom: 225rpx;
+}

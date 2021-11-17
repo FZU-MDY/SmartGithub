@@ -1,0 +1,23 @@
+<view>
+  <scroll-view scroll-y="true" style="height: 100%;" >
+    <image class="background_image" src="http://m.qpic.cn/psc?/V13o297P0pKsa6/45NBuzDIW489QBoVep5mcQLhpR88DBHgMnZvKWtqeNk25PB8svY*FWcdNFH*ECc3daff8WyjpJZIJ*my8NTrLdMg3s2gbY9q5LxW*d1qWLQ!/b&bo=cgU4BAAAAAADJ0k!&rf=viewer_4" mode="widthFix">
+    </image>
+  </scroll-view>
+</view>
+
+<!-- 遮罩层 --> 
+<view class="mask" wx:if="{{showModal}}"></view> 
+<!-- 弹出层 --> 
+<view class="modalDlg" wx:if="{{showModal}}"> 
+<!-- 二维码或其他图片 -->
+  <image class="image1" src="http://r.photo.store.qq.com/psc?/V146DI3W0VvSUW/45NBuzDIW489QBoVep5mcc8z4u30R*n.gqb54wn*lPOuNZ.DRDW1DGwrvoVGiKEuTIoo*1j0jsegIkWK7xsq.bWoOHGAfxYXb0yvTuk8ScQ!/r" mode='aspectFill'></image>
+  <image class="image2" src="http://r.photo.store.qq.com/psc?/V146DI3W0VvSUW/45NBuzDIW489QBoVep5mccjygNxXveUgV9112FZy*xSwBTf6mq1kr6100ky8bvVf4tPfkd3TD0gwlU4A7*hFVxmvl0DgCSSbMidFDNlAIJM!/r" mode='aspectFill'></image> 
+  
+  <view class="test1">恭喜你完成本次教学内容</view> 
+  <view class="test2">是否查看仓库介绍</view> 
+  <view class="flex-around"style="width:100%">    
+    <view bindtap="no" class="btn no">No</view>    
+    <view bindtap="again" class="btn again">Again</view> 
+    <view bindtap="confirm" class="btn confirm">OK</view> 
+  </view> 
+</view>

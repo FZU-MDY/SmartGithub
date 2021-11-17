@@ -1,0 +1,22 @@
+<!--pages/info/info.wxml-->
+<view>
+  <scroll-view scroll-y="true" style="height: 100%;" >
+    <image class="background_image" src="http://r.photo.store.qq.com/psc?/V146DI3W0VvSUW/45NBuzDIW489QBoVep5mcX7pzKB4zwk1bKozXrVc51mtagg4aT8KmzC6NOSp6.z31RU23JiBSGFe1W1ar1b*J5kuVJ8.*aA5wrh0dqbYYQc!/r" mode="widthFix">
+    </image>
+
+    <view style="position:absolute;background:rgb(218, 188, 154);width: 30%;top:30%;left:37%;height:5%;color: white;border: 1px solid red;border-radius: 2px;background-color:transparent;">
+    <input class="input1"  style="text-align: left;vertical-align: middle;" placeholder="输入仓库名称:MDY-TEAM"  placeholder-class="bgc" value="{{userName}}" bindblur='NameInput'></input>
+    </view>
+
+    <view style="position:absolute;background:rgb(218, 188, 154);width: 52%;top:43%;left:24%;height:5%;color: white;border: 1px solid red;border-radius: 2px;background-color:transparent;">
+    <input class="input1"  style="text-align: left;vertical-align: middle;" placeholder="输入仓库描述（选填）"  placeholder-class="bgc" ></input>
+    </view>
+
+    <view style="position:absolute;background:rgb(218, 188, 154);width: 52%;top:50%;left:24%;height:42%;color: white;border: 1px solid red;border-radius: 2px;background-color:transparent;"></view>
+
+    <view>
+      <button bindtap="gorepo" style="position:absolute;background:rgb(218, 188, 154);width: 10.5%;top:93.5%;left: 24.5%;height:4%;color: white;border: 1px solid red;border-radius: 2px;background-color:transparent;"></button>   
+    </view>
+  </scroll-view>
+  <text class="word">根据提示进行选择</text>
+</view>
