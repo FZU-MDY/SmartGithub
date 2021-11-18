@@ -22,7 +22,7 @@ Page({
     this.setData({
       corner_data:3
     })
-    
+    // 获取购物车控件适配参数
     var that =this;
     wx.getSystemInfo({
       success: function (res) {
@@ -42,11 +42,12 @@ Page({
   },
    //可拖动悬浮按钮点击事件
    btn_Suspension_click:function(){
+    //这里是点击购物车之后将要执行的操作
     wx.navigateTo({
       url: '/pages/aaaa/aaaa',
       })
   },
-  //按钮拖动事件
+  //以下是按钮拖动事件
   buttonStart: function (e) {
     startPoint = e.touches[0]//获取拖动开始点
   },
