@@ -1,0 +1,61 @@
+/**index.wxss**/
+.userinfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #aaa;
+  }
+  
+  .userinfo-avatar {
+    overflow: hidden;
+    width: 128rpx;
+    height: 128rpx;
+    margin: 20rpx;
+    border-radius: 50%;
+  }
+  
+  .usermotto {
+    margin-top: 200px;
+  }
+  .pic1-1 {
+    width:100%;
+    filter: brightness(75%);
+  }
+  .pic2-1 {
+    width: 170rpx;
+    height:44rpx;
+    position: absolute;
+    top:146rpx;
+    left:255rpx;
+  }
+  .pic2-2 {
+    width:100%;
+    width: 97rpx;
+    height:25rpx;
+    position: absolute;
+    top:498rpx;
+    left:148rpx;
+  }
+  .alerting{
+    background-color: hotpink;
+    display: block;
+  }
+  .alerting_hide{
+    background-color: hotpink;
+    display: hide;
+  }
+  .correct{
+    background-color: lightpink;
+    display: block;
+  }
+  .correct_hide{
+    background-color: lightpink;
+    display: hide;
+  }
+  .userBox{
+    position: absolute;
+    top:166rpx;
+    left:261rpx;
+    width: 155rpx;
+    height:10rpx;
+  }

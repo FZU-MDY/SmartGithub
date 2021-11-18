@@ -1,0 +1,2 @@
+<image src="/pic/pushed.png" class="pic1-1" mode='widthFix'></image>
+<image src="/pic/pic5.2.png" class="pic5-2"  bindtap='fin'></image>
