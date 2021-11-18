@@ -1,0 +1,39 @@
+<!--pages/mypage/mypage.wxml-->
+<view>
+<image class="bg-image" mode="scaleToFill" src="http://r.photo.store.qq.com/psc?/V13o297P0pKsa6/45NBuzDIW489QBoVep5mcRCTnuQAMH0zq4JdHDzfoODgN3qYW*6YU8HX3dQKGZkzR.wGG26HbHb3o1g4eNAqs5mDFyPnVxyNqvRjq33BQdI!/r"></image>
+</view>
+<view class='imagesize'>
+  <image src="http://r.photo.store.qq.com/psc?/V13o297P0pKsa6/45NBuzDIW489QBoVep5mcQKiBRDhCbXaNb4JOmPE2T*Y5tn4KLN26PX6vr4kttAKBAyzFFRIzN5ncHILAxqCmQecxORRi98*pIPj07V51jY!/r" class='in-image'   >
+  </image>
+</view>
+
+<!--个人仓库-->
+<view class='tapbtn01'>
+<button class="tapbtn1" size="mini"plain="true" bindtap="go2repo1">
+    <image  class="c1" src='http://m.qpic.cn/psc?/V13o297P0pKsa6/45NBuzDIW489QBoVep5mcVLic6DQzq*DdSxj70pcRrW*f5Ujcw6XoUhmlnEwUAfVvxXi1x1v85ySw.ePP7Od14mMgQn*CmRlvqbyncsfW.g!/b&bo=vwGAAL8BgAADFzI!&rf=viewer_4'></image></button></view>
+<view class='imagesize11'>
+  <image src="http://m.qpic.cn/psc?/V13o297P0pKsa6/45NBuzDIW489QBoVep5mcex9v65odxH1rY9xXTvAOvLmhJV.xIdAtrZlHMOJ.N2nXaHfh6YWT8j.TMt8.VgHUQXeRq1Bkp.XkKXN0cs6cEw!/b&bo=yADIAMgAyAADFzI!&rf=viewer_4" class='in-image'   >
+  </image>
+</view>
+<text class="type11">WorkerLivesMatter/WorkerLiveMatter</text>   
+<text class="type21">打工人的工作时间表</text>   
+
+
+<view class='tapbtn01'>
+<button class="tapbtn1" size="mini"plain="true" bindtap="go2repo1">
+    <image  class="c1" src='http://m.qpic.cn/psc?/V13o297P0pKsa6/45NBuzDIW489QBoVep5mcVLic6DQzq*DdSxj70pcRrW*f5Ujcw6XoUhmlnEwUAfVvxXi1x1v85ySw.ePP7Od14mMgQn*CmRlvqbyncsfW.g!/b&bo=vwGAAL8BgAADFzI!&rf=viewer_4'></image></button></view>
+<view class='imagesize11'>
+  <image src="http://m.qpic.cn/psc?/V13o297P0pKsa6/45NBuzDIW489QBoVep5mcex9v65odxH1rY9xXTvAOvLmhJV.xIdAtrZlHMOJ.N2nXaHfh6YWT8j.TMt8.VgHUQXeRq1Bkp.XkKXN0cs6cEw!/b&bo=yADIAMgAyAADFzI!&rf=viewer_4" class='in-image'   >
+  </image>
+</view>
+<text class="type11">WorkerLivesMatter/WorkerLiveMatter</text>   
+<text class="type21">打工人的工作时间表</text>   
+ 
+
+
+<view>
+  <button bindtap="go2about" style="position:absolute;background:white;width: 90%;margin-top:63%;margin-left: 5%;color: #5E7972;border-radius: 50rpx;  font-size: 120%;">关于我们</button>   
+</view>
+<text class="type1">个人仓库</text>
+<text class="type2">User</text>
+
