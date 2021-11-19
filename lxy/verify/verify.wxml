@@ -1,0 +1,15 @@
+<!--pages/info/info.wxml-->
+<view>
+  <scroll-view scroll-y="true" style="height: 100%;" >
+    <image class="background_image" src="http://r.photo.store.qq.com/psc?/V13o297P0pKsa6/45NBuzDIW489QBoVep5mcYfNNAVirzKKnGZ*Re398bWuvCx.61hik3fJq1uhNj.W.0fRZGpU*r4bhT2J2LA0YSZe6i2PtEI7MpbCDhrU3kU!/r" mode="widthFix">
+    </image>
+    
+    <view style="position:absolute;background:rgb(218, 188, 154);width: 37%;top:35%;left: 32%;height:7%;color: white;border: 1px solid red;border-radius: 2px;background-color:transparent;">
+    <input class="input1"  style="text-align: left;vertical-align: middle;"placeholder="请输入验证码:6666" placeholder-class="bgc" value="{{contentInput}}"  bindinput='useremailInput'></input>
+    </view>
+
+    <button bindtap="gohomepage" style="position:absolute;background:rgb(218, 188, 154);width: 27%;top:35%;left: 70%;height:7%;color: white;border: 1px solid red;border-radius: 2px;	background-color:transparent;border: none;font-size: 15rpx;text-align: left;" >点击跳转</button> 
+    
+
+  </scroll-view>
+</view>

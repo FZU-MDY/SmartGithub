@@ -1,0 +1,53 @@
+<view>
+  <scroll-view scroll-y="true" style="height: 100%;" >
+    <image class="background_image" src="/pages/image/仓库_Setting.png" mode="widthFix">
+    </image> 
+  </scroll-view>
+</view>
+
+<view>
+      <button bindtap="goissue" style="position:absolute;background:rgb(218, 188, 154);width:1%;top:19%;left: 7%;height:5%;color: white;border: 1px solid transparent;border-radius: 2px;background-color:transparent;"></button>   
+</view>
+
+<view>
+      <button bindtap="gopr" style="position:absolute;background:rgb(218, 188, 154);width: 1%;top:19%;left: 16%;height:5%;color: white;border: 1px solid transparent;border-radius: 2px;background-color:transparent;"></button>   
+</view>
+
+<view>
+      <button bindtap="goaction" style="position:absolute;background:rgb(218, 188, 154);width: 1%;top:19%;left:24.5%;height:5%;color: white;border: 1px solid transparent;border-radius: 2px;background-color:transparent;"></button>   
+</view>
+
+<view>
+      <button bindtap="goproject" style="position:absolute;background:rgb(218, 188, 154);width: 1%;top:19%;left:33%;height:5%;color: white;border: 1px solid transparent;border-radius: 2px;background-color:transparent;"></button>   
+</view>
+
+<view>
+      <button bindtap="gowiki" style="position:absolute;background:rgb(218, 188, 154);width: 1%;top:19%;left: 40%;height:5%;color: white;border: 1px solid transparent;border-radius: 2px;background-color:transparent;"></button>   
+</view>
+
+<view>
+      <button bindtap="gosecurity" style="position:absolute;background:rgb(218, 188, 154);width: 1%;top:19%;left: 45%;height:5%;color: white;border: 1px solid transparent;border-radius: 2px;background-color:transparent;"></button>   
+</view>
+
+<view>
+      <button bindtap="goinsight" style="position:absolute;background:rgb(218, 188, 154);width: 1%;top:19%;left: 52%;height:5%;color: white;border: 1px solid transparent;border-radius: 2px;background-color:transparent;"></button>   
+</view>
+
+<view>
+      <button bindtap="gosetting" style="position:absolute;background:rgb(218, 188, 154);width: 1%;top:19%;left: 60%;height:6.8%;color: white;border: 1px solid transparent;border-radius: 2px;background-color:transparent;"></button>   
+</view>
+
+<view>
+      <button bindtap="gocode" style="position:absolute;background:rgb(218, 188, 154);width: 1%;top:19%;left: 0.6%;height:6.8%;color: white;border: 1px solid transparent;border-radius: 2px;background-color:transparent;"></button>   
+</view>
+
+<view style="position:absolute;background:rgb(218, 188, 154);width: 10%;top:19%;left: 60%;height:6%;color: white;border: 1px solid blue;border-radius: 2px;background-color:transparent;"></view>
+<view><text class="word1">一般个人仓库才能看见这个页面</text></view>
+<view><text class="word1">可对仓库进行任何设置</text></view>
+
+<view style="position:absolute;background:rgb(218, 188, 154);width: 8%;top:130%;left: 30%;height:6%;color: white;border: 1px solid red;border-radius: 2px;background-color:transparent;"></view>
+<view><text class="word2">更改Wiki和Issues的相关设置</text></view>
+
+<view class="btn_Suspension" bindtap="btn_Suspension_click" catchtouchmove="buttonMove" bindtouchstart="buttonStart" bindtouchend="buttonEnd" style="top:{{buttonTop}}px;left:{{buttonLeft}}px;">
+    <image class="Suspension_logo" src="/pages/image/exit.png"></image>
+</view>

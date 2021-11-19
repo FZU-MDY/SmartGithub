@@ -1,0 +1,75 @@
+{
+  "pages":[   
+      "pages/mypage/mypage",
+     "pages/favorpage/favorpage",
+    "pages/historypage/historypage",
+     "pages/firstpage/firstpage",      
+    "pages/intro_action/intro_action", 
+    
+    "pages/intro_code/intro_code",
+    "pages/intro_issue/intro_issue", 
+    "pages/homepage/homepage", 
+    "pages/review_approve_request/review_approve_request", 
+    "pages/invite_member/invite_member", 
+ 
+    "pages/about/about", 
+    
+    
+    "pages/repo1/repo1",
+    "pages/teachpage/teachpage",
+    "pages/teach1/teach1",
+    "pages/teach2/teach2",
+    "pages/teach3/teach3",
+    "pages/teach4/teach4",
+    "pages/teach5/teach5",
+    "pages/teach6/teach6",
+    "pages/teach7/teach7",
+    "pages/teach8/teach8",
+ "pages/code1/code1", 
+ "pages/info/info", 
+
+ "pages/verify/verify", 
+ 
+
+ "pages/intro_insight/intro_insight", 
+
+ "pages/intro_pr/intro_pr",
+ "pages/intro_project/intro_project",  
+ "pages/intro_security/intro_security", 
+ "pages/intro_setting/intro_setting", 
+ "pages/intro_wiki/intro_wiki", 
+ "pages/repo_info/repo_info", 
+ "pages/repo/repo", 
+ "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Smart GiHub",
+    "navigationBarTextStyle":"black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "color": "5E7972",
+    "selectedColor": "286858",
+    "borderStyle": "white",
+    "backgroundColor": "F2F1EF",
+    "list": [
+      {
+        "selectedIconPath": "images/首页绿色1.png",
+        "iconPath": "images/首页绿色1.png",
+        "pagePath": "pages/firstpage/firstpage",
+        "text": "首页"
+      },
+      {
+        "selectedIconPath": "images/我的.png",
+        "iconPath": "images/我的.png",
+        "pagePath": "pages/mypage/mypage",
+        "text": "我的"
+      }
+      
+    ]
+  }
+}

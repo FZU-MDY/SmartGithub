@@ -1,0 +1,50 @@
+<view class="background">
+  <scroll-view scroll-y="true" style="height: 100%;" >
+    <image class="background_image" wx:if="{{Pull_requests}}" src="/pages/image/bg25.png" mode="widthFix"></image>
+    <image class="background_image" wx:if="{{Update}}" src="/pages/image/bg26.png" mode="widthFix"></image>
+    <image class="background_image" wx:if="{{Files_changed}}" src="/pages/image/bg27.png" mode="widthFix"></image>
+    <image class="background_image" wx:if="{{Conversation}}" src="/pages/image/bg28.png" mode="widthFix"></image>
+    <image class="background_image" wx:if="{{Merge_pull_request}}" src="/pages/image/bg29.png" mode="widthFix"></image>
+    <image class="background_image" wx:if="{{Confirm_merge}}" src="/pages/image/bg30.png" mode="widthFix"></image>
+    <image class="background_image" wx:if="{{finish_merge}}" src="/pages/image/bg31.png" mode="widthFix" bindtap="go_finish"></image>
+
+    <button hidden="{{!Pull_requests}}" style="width: 9%;" class="pull_requests" bindtap="go_update"><text>Pull requests</text>
+    </button>
+    <button hidden="{{!Update}}" style="width: 14%;" class="update" bindtap="go_files_changed"><text>Update Smart GitHub</text>
+    </button>
+    <text hidden="{{!Update}}" class="text_update">选择某一个合并请求进行处理</text>
+    <button hidden="{{!Files_changed}}" style="width: 9.1%;" class="files_changed" bindtap="go_conversation"><text>Files changed</text>
+    </button>
+    <text hidden="{{!Files_changed}}" class="text_files_changed1">记得确定选择合并的分支正确</text>
+    <text hidden="{{!Files_changed}}" class="text_files_changed2">点击查看该请求对项目哪些部分进行修改</text>
+    <button hidden="{{!Conversation}}" style="width: 9.1%;" class="conversation" bindtap="go_merge_pull_request"><text>Conversation</text>
+    </button>
+    <text hidden="{{!Conversation}}" class="text_conversation">删除部分标红，增加部分标绿</text>
+    <button hidden="{{!Merge_pull_request}}" style="width: 16.5%;" class="merge_pull_request" bindtap="go_confirm_merge"><text>Merge pull request</text>
+    </button>
+    <text hidden="{{!Merge_pull_request}}" class="text_merge_pull_request1">若修改无误，则可同意请求</text>
+    <text hidden="{{!Merge_pull_request}}" class="text_merge_pull_request2">若发现错误，则应关闭请求并告知队友</text>
+    <button hidden="{{!Confirm_merge}}" style="width: 11.5%;" class="confirm_merge" bindtap="go_finish_merge"><text>Confirm merge</text>
+    </button>
+
+    <view class="wrapper" style="left: {{left}}; top: {{top}};">
+        <view class="circle"><image style="width: 14.2px; height: 16.2px;" src="/pages/image/shou2.png"></image></view>
+        <view class="finger"><image style="width: 18px; height: 22px;" src="/pages/image/shou1.png"></image></view>
+    </view>
+  </scroll-view> 
+</view>
+
+<!-- 遮罩层 --> 
+<view class="mask" wx:if="{{showModal}}"></view> 
+<!-- 弹出层 --> 
+<view class="modalDlg" wx:if="{{showModal}}"> 
+<!-- 二维码或其他图片 -->
+  <image class="image1" src="/pages/image/cat.jpg" mode='aspectFill'></image>
+  <image class="image2" src="/pages/image/logo.jpg" mode='aspectFill'></image> 
+  
+  <view class="test">恭喜你完成本次教学内容</view> 
+  <view class="flex-around"style="width:100%">       
+    <view bindtap="cancel" class="btn cancel">Again</view> 
+    <view bindtap="confirm" class="btn confirm">OK</view> 
+  </view> 
+</view>

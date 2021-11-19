@@ -1,0 +1,23 @@
+<image src="/pic/git_remote_repo.png" class="pic1-1" mode='widthFix' hidden="{{isNext11}}"></image>
+<image src="/pic/clone_suss1.png" class="pic1-1" mode='widthFix' hidden="{{!isNext11}}"></image>
+
+<image src="/pic/pic5.2.png" hidden="{{isNext11}}"class="pic5-2"  bindtap='jmp'></image>
+<image src="/pic/pic5.2.png" hidden="{{!isNext11}}"class="pic5-2"  bindtap='fin'></image>
+
+<view class="hint1" hidden="{{isNext11}}">这是原本仓库上的文件</view>
+<view class="hint2" hidden="{{!isNext11}}">可看见已经成功克隆到文件夹</view>
+
+<!-- 遮罩层 --> 
+<view class="mask" wx:if="{{showModal}}"></view> 
+<!-- 弹出层 --> 
+<view class="modalDlg" wx:if="{{showModal}}"> 
+<!-- 二维码或其他图片 -->
+  <image class="image1" src="/pic/cat.png" mode='aspectFill'></image>
+  <image class="image2" src="/pic/logo.png" mode='aspectFill'></image> 
+  
+  <view class="test">恭喜你完成本次教学内容</view> 
+  <view class="flex-around"style="width:100%">       
+    <view bindtap="cancel" class="btn cancel">Again</view> 
+    <view bindtap="confirm" class="btn confirm">OK</view> 
+  </view> 
+</view>

@@ -1,0 +1,60 @@
+<view class="background">
+  <scroll-view scroll-y="true" style="height: 100%;" >
+    <image class="background_image" wx:if="{{fork}}" src="/pages/image/bg14.png" mode="widthFix"></image>
+    <image class="background_image" wx:if="{{name}}" src="/pages/image/bg15.png" mode="widthFix"></image>
+    <image class="background_image" wx:if="{{finish_fork}}" src="/pages/image/bg16.png" mode="widthFix" bindtap="go_upstream"></image>
+    <image class="background_image" wx:if="{{Fetch_upstream}}" src="/pages/image/bg17.png" mode="widthFix"></image>
+    <image class="background_image" wx:if="{{Fetch_merge}}" src="/pages/image/bg18.png" mode="widthFix"></image>
+    <image class="background_image" wx:if="{{finish_fetch}}" src="/pages/image/bg19.png" mode="widthFix" bindtap="go_pull_request"></image>
+    <image class="background_image" wx:if="{{Pull_request}}" src="/pages/image/bg20.png" mode="widthFix"></image>
+    <image class="background_image" wx:if="{{New_pull_request}}" src="/pages/image/bg21.png" mode="widthFix"></image>
+    <image class="background_image" wx:if="{{Create_pull_request}}" src="/pages/image/bg22.png" mode="widthFix"></image>
+    <image class="background_image" wx:if="{{Create_pull_request1}}" src="/pages/image/bg23.png" mode="widthFix"></image>
+    <image class="background_image" wx:if="{{Finish_pull_request}}" src="/pages/image/bg24.png" mode="widthFix" bindtap="go_finish"></image>
+
+    <button hidden="{{!fork}}" style="width: 4%;" class="Fork" bindtap="go_name">Fork
+    </button>
+    <button hidden="{{!name}}" style="width: 11%;" class="name" bindtap="go_finish_fork">maple-leaf10
+    </button>
+    <text hidden="{{!name}}" class="text_name">选择自己的账户（一般为第一个）</text>
+    <button hidden="{{!Fetch_upstream}}" style="width: 11.7%;" class="fetch_upstream" bindtap="go_fetch_merge">Fetch upstream
+    </button>
+    <text hidden="{{!Fetch_upstream}}" class="text_fetch_upstream">点击查看团队项目是否有更新</text>
+    <text hidden="{{!Fetch_upstream}}" class="text_dev">前期开发一般在分支中进行</text>
+    <button hidden="{{!Fetch_merge}}" style="width: 14%;" class="fetch_merge" bindtap="go_finish_fetch"><text>Fetch and merge</text>
+    </button>
+    <text hidden="{{!Fetch_merge}}" class="text_fetch_merge">当团队项目有更新时，点击按钮获取最新版</text>
+    <button hidden="{{!Pull_request}}" style="width: 9.5%;" class="pull_request" bindtap="go_new_pull_request"><text>Pull requests</text>
+    </button>
+    <text hidden="{{!Pull_request}}" class="text_pull_request">若有 Compare & pull request 按钮，也可点击其发送合并请求</text>
+    <button hidden="{{!New_pull_request}}" style="width: 13.7%;" class="new_pull_request" bindtap="go_create_pull_request"><text>New pull request</text>
+    </button>
+    <button hidden="{{!Create_pull_request}}" style="width: 15%;" class="create_pull_request" bindtap="go_create_pull_request1"><text>Create pull request</text>
+    </button>
+    <text hidden="{{!Create_pull_request}}" class="text_create_pull_request1">要确认请求合并的分支正确</text>
+    <text hidden="{{!Create_pull_request}}" class="text_create_pull_request2">删除部分标红，增加部分标绿</text>
+    <button hidden="{{!Create_pull_request1}}" style="width: 15%;" class="create_pull_request1" bindtap="go_finish_pull_request"><text>Create pull request</text>
+    </button>
+    <text hidden="{{!Create_pull_request1}}" class="text_create_pull_request">如果需要，可以在相应部分加入文字解释</text>
+
+    <view class="wrapper" style="left: {{left}}; top: {{top}};">
+        <view class="circle"><image style="width: 14.2px; height: 16.2px;" src="/pages/image/shou2.png"></image></view>
+        <view class="finger"><image style="width: 18px; height: 22px;" src="/pages/image/shou1.png"></image></view>
+    </view>
+  </scroll-view> 
+</view>   
+ 
+<!-- 遮罩层 --> 
+<view class="mask" wx:if="{{showModal}}"></view> 
+<!-- 弹出层 --> 
+<view class="modalDlg" wx:if="{{showModal}}"> 
+<!-- 二维码或其他图片 -->
+  <image class="image1" src="/pages/image/cat.jpg" mode='aspectFill'></image>
+  <image class="image2" src="/pages/image/logo.jpg" mode='aspectFill'></image> 
+  
+  <view class="test">恭喜你完成本次教学内容</view> 
+  <view class="flex-around"style="width:100%">       
+    <view bindtap="cancel" class="btn cancel">Again</view> 
+    <view bindtap="confirm" class="btn confirm">OK</view> 
+  </view> 
+</view>
