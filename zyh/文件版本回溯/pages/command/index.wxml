@@ -1,0 +1,34 @@
+<image src="/pic/total_black.png" class="pic1-1" mode='widthFix'></image>
+
+<image src="/pic/title.png" class="title" ></image>
+<image src="/pic/title.png" class="title1"  hidden="{{!isNext1}}"></image>
+<image src="/pic/title.png" class="title2"  hidden="{{!isNext2}}"></image>
+
+
+<input type='text' class='userBox' name='repoName'  bindinput='getName'></input>
+<input type='text' class='userBox1' name='repoName'  bindinput='getName1' hidden="{{!isNext1}}"></input>
+<input type='text' class='userBox2' name='repoName'  bindinput='getName2' hidden="{{!isNext2}}"></input>
+
+
+<view class="hint1" hidden="{{control_remote}}">输入cat coding.txt查看原始文件内容</view>
+<view  class="hint2" hidden="{{!control_remote}}">操作成功</view>
+<view class="hint3" hidden="{{(!isNext1)||isNext11}}">输入git checkout -- coding.txt将已保存但还没有进行git add指令的文件退回至github上次提交的版本(--的前后都有空格)</view>
+<view  class="hint4" hidden="{{!isNext11}}">指令操作成功</view>
+<view class="hint5" hidden="{{(!isNext2)||isNext22}}">再次输入cat coding.txt查看文件内容</view>
+<view  class="hint6" hidden="{{!isNext22}}">指令操作成功</view>
+<view class="view1"  hidden="{{!isNext22}}">可以发现，如果修改文件但没有执行git add指令，通过git checkout -- 文件名可恢复文件修改的状态</view>
+
+<image src="/pic/cat_res1.png" class="result1" hidden="{{!control_remote}}"  ></image>
+<!--<image src="/pic/ls_res.png" class="result2" hidden="{{!isNext11}}" ></image>-->
+<image src="/pic/res3.png" class="result3" hidden="{{!isNext22}}"></image>
+
+<image src="/pic/pic5.2.png" class="pic5-2"  hidden="{{!isNext22}}" bindtap='jmp'></image>
+
+<image src="/pic/shou1.png" class="shou1" hidden="{{control_remote}}"></image>
+<image src="/pic/shou2.png" class="shou2" hidden="{{control_remote}}"></image>
+<image src="/pic/shou1.png" class="shou3" hidden="{{(!isNext1)||isNext11}}"></image>
+<image src="/pic/shou2.png" class="shou4" hidden="{{(!isNext1)||isNext11}}"></image>
+<image src="/pic/shou1.png" class="shou5" hidden="{{(!isNext2)||isNext22}}"></image>
+<image src="/pic/shou2.png" class="shou6" hidden="{{(!isNext2)||isNext22}}"></image>
+
+
