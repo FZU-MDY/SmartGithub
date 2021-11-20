@@ -1,0 +1,18 @@
+<!--pages/create_repo/create_repo.wxml-->
+<view class="background">
+  <scroll-view scroll-y="true" style="height: 100%;" >
+    <image class="background_image" src="http://r.photo.store.qq.com/psc?/V146DI3W0VvSUW/45NBuzDIW489QBoVep5mcWePdD7t2KyPNyyXbaUWvm2bDZrBuOXyH6OKEQF0qUsE*.Vh8G*6Yl8bZLLv7n.Nz5XHIUzzLbj.c0GWhBdR0tM!/r" mode="widthFix">
+    </image>
+
+    <text class="word">点击此处创建仓库</text>
+
+    <view class="wrapper" style="left: 10%; top: 25%;">
+        <view class="circle"><image style="width: 14.2px; height: 16.2px;" src="/pages/image/shou2.png"></image></view>
+        <view class="finger"><image style="width: 18px; height: 22px;" src="/pages/image/shou1.png"></image></view>
+    </view>
+    <view>
+      <button bindtap="gorepo_info" style="position:absolute;background:rgb(218, 188, 154);width: 20rpx;top:105rpx;left: 2%;height:10rpx;color: white;border: 1px solid transparent;border-radius: 2px;background-color:transparent;"></button>   
+    </view>
+
+  </scroll-view> 
+</view>
