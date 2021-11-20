@@ -1,0 +1,28 @@
+<!--pages/teachpage/teachpage.wxml-->
+<view>
+<image class="bg-image" mode="scaleToFill" src="http://r.photo.store.qq.com/psc?/V13o297P0pKsa6/45NBuzDIW489QBoVep5mcRVBY375RPVtQVL1IKVxCPTx1OzkPGirlm8oLy8cg5pJneOy68aBrT*qUHRWGp3ql.jzJ9*Yz.7Z7Is8XesveJ4!/r"></image>
+</view>
+<view>
+  <button bindtap="go2teach1" style="position:absolute;background:white;width: 90%;margin-top:15%;margin-left: 5%;color: #5E7972;border-radius: 50rpx;  font-size: 120%;">GitHub的注册与登录</button>   
+</view>
+<view>
+  <button bindtap="go2teach2" style="position:absolute;background:white;width: 90%;margin-top:35%;margin-left: 5%;color: #5E7972;border-radius: 50rpx;  font-size: 120%;">创建仓库及页面介绍</button>   
+</view>
+<view>
+  <button bindtap="go2teach3" style="position:absolute;background:white;width: 90%;margin-top:55%;margin-left: 5%;color: #5E7972;border-radius: 50rpx;  font-size: 120%;">git的基本操作</button>   
+</view>
+<view>
+  <button bindtap="go2teach4" style="position:absolute;background:white;width: 90%;margin-top:75%;margin-left: 5%;color: #5E7972;border-radius: 50rpx;  font-size: 120%;">git创建版本库</button>   
+</view>
+<view>
+  <button bindtap="go2teach5" style="position:absolute;background:white;width: 90%;margin-top:95%;margin-left: 5%;color: #5E7972;border-radius: 50rpx;  font-size: 120%;">git修改操作</button>   
+</view>
+<view>
+  <button bindtap="go2teach6" style="position:absolute;background:white;width: 90%;margin-top:115%;margin-left: 5%;color: #5E7972;border-radius: 50rpx;  font-size: 120%;">git远程仓库</button>   
+</view>
+<view>
+  <button bindtap="go2teach7" style="position:absolute;background:white;width: 90%;margin-top:135%;margin-left: 5%;color: #5E7972;border-radius: 50rpx;  font-size: 120%;">团队协作之队长篇</button>   
+</view>
+<view>
+  <button bindtap="go2teach8" style="position:absolute;background:white;width: 90%;margin-top:155%;margin-left: 5%;color: #5E7972;border-radius: 50rpx;  font-size: 120%;">团队协作之队员篇</button>   
+</view>
