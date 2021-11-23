@@ -1,6 +1,5 @@
 var startPoint
 Page({
-
   /**
    * 页面的初始数据
    */
@@ -22,7 +21,7 @@ Page({
     this.setData({
       corner_data:3
     })
-    // 获取购物车控件适配参数
+
     var that =this;
     wx.getSystemInfo({
       success: function (res) {
@@ -34,15 +33,14 @@ Page({
         that.setData({
           windowHeight:  res.windowHeight,
           windowWidth:  res.windowWidth,
-          buttonTop:res.windowHeight*0.70,//这里定义按钮的初始位置
-          buttonLeft:res.windowWidth*0.70,//这里定义按钮的初始位置
+          buttonTop:res.windowHeight*0.70,//定义按钮的初始位置
+          buttonLeft:res.windowWidth*0.70,
         })
       }
     })
   },
   //可拖动悬浮按钮点击事件
   btn_Suspension_click:function(){
-    //这里是点击购物车之后将要执行的操作
     wx.navigateTo({
       url: '/pages/aaaa/aaaa',
       })
