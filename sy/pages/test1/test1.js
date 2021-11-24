@@ -224,54 +224,5 @@ Page({
     })
   }
   },
-  Instruction11Input:function(e)
-  {
-    this.setData({
-      Instruction11: e.detail.value
-    })
-  },
-  go_ok11: function(){
-    wx.setNavigationBarTitle({
-      title: '添加文件到版本库',
-   })
-   if(this.data.Instruction10 != 'git commit -m "wrote a readme file"'){
-    wx.showToast({  
-    title: '命令错误',  
-    icon: 'error',  
-    duration: 2000 ,
-    }) 
-  }
-  else{
-    this.setData({
-      ok10:false,
-      ok11:true,
-      top: "35%",
-      left: "50%",
-    })
-  }
-  },
-   go_okfinish: function(){
-     wx.setNavigationBarTitle({
-       title: '添加文件到版本库',
-    })
-    this.setData({
-     showModal:true,
-    //  top: "472px",
-    //  left: "185px",
-   })
- },
-  cancel: function(){
-    this.setData({
-    ok11:false,
-    showModal:false,
-    ok1:true,
-    top: "9.3%",
-    left: "49%", 
-   })
-  },
-  confirm: function(){
-    wx.navigateTo({
-    url: '/pages/invite_member/invite_member',
-   })
-  },
+  
 })
