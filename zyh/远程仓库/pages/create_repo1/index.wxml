@@ -1,8 +1,0 @@
-
-<image src="/pic/pic1.png" class="pic1-1" mode='widthFix'></image>
-<image src="/pic/pic1.2.png" class="pic1-2" bindtap="onTapButton"></image>
-<image src="/pic/pic1.2.png" class="pic1-2" bindtap="onTapButton"></image>
-<image src="/pic/shou1.png" class="shou1" ></image>
-<image src="/pic/shou2.png" class="shou2"></image>
-
-
