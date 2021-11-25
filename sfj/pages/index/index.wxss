@@ -1,0 +1,102 @@
+page{
+    background: #f3f7f7;
+   }
+   .tselect_box{
+    background: #fff;
+    width: 50%;
+    margin: 30% 10%;
+    width: 35%;
+    position: relative;
+   }
+   .tselect{
+    box-sizing: border-box;
+    width: 100%;
+    height: 70rpx;
+    border:1px solid #efefef;
+    border-radius: 8rpx;
+    display: flex;
+    align-items: center;
+    padding: 0 20rpx;
+   }
+   .tselect_text{
+    font-size: 30rpx;
+    flex: 1;
+   }
+   .tselect_img{
+    width: 40rpx;
+    height: 20rpx;
+    display: block;
+    transition:transform 0.3s;
+   }
+   .tselect_img_rotate{
+    transform:rotate(180deg); 
+   }
+   .toption_box{
+    position: absolute;
+    top: 70rpx;
+    width: 100%;
+    border:1px solid #efefef;
+    box-sizing: border-box;
+    height: 0;
+    overflow-y: auto;
+    border-top: 0;
+    background: #fff;
+    transition: height 0.3s;
+   }
+   .toption{
+    display: block;
+    line-height: 40rpx;
+    font-size: 30rpx;
+    border-bottom: 1px solid #efefef;
+    padding: 10rpx;
+   }
+
+   .lselect_box{
+    background: #fff;
+    width: 50%;
+    margin: 30% 10%;
+    width: 35%;
+    position: relative;
+   }
+   .lselect{
+    box-sizing: border-box;
+    width: 100%;
+    height: 70rpx;
+    border:1px solid #efefef;
+    border-radius: 8rpx;
+    display: flex;
+    align-items: center;
+    padding: 0 20rpx;
+   }
+   .lselect_text{
+    font-size: 30rpx;
+    flex: 1;
+   }
+   .lselect_img{
+    width: 40rpx;
+    height: 20rpx;
+    display: block;
+    transition:transform 0.3s;
+   }
+   .lselect_img_rotate{
+    transform:rotate(180deg); 
+   }
+   .loption_box{
+    position: absolute;
+    top: 70rpx;
+    width: 100%;
+    border:1px solid #efefef;
+    box-sizing: border-box;
+    height: 0;
+    overflow-y: auto;
+    border-top: 0;
+    background: #fff;
+    transition: height 0.3s;
+   }
+   .loption{
+    display: block;
+    line-height: 40rpx;
+    font-size: 30rpx;
+    border-bottom: 1px solid #efefef;
+    padding: 10rpx;
+   }

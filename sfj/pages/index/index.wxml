@@ -1,0 +1,28 @@
+<view class='tselect_box'>
+ <view class='tselect' catchtap='tselectTap'>
+    <text hidden="{{!tisshow}}" class='tselect_text'>选择时间</text>
+  <text hidden="{{tisshow}}" class='tselect_text'>{{tselectData[tindex]}}</text>
+  <image class='tselect_img {{tshow&&"tselect_img_rotate"}}' src='/pages/image/san.png'></image>   
+ </view>
+ <view class='toption_box' style='height:{{tshow?(tselectData.length>5?300:tselectData.length*60):0}}rpx;'>
+  <text class='toption' style='{{tindex==tselectData.length-1&&"border:0;"}}' wx:for='{{tselectData}}' wx:key='this' data-tindex='{{index}}' catchtap='toptionTap'>{{item}}</text>
+ </view>
+</view>
+
+<view class='lselect_box'>
+ <view class='lselect' catchtap='lselectTap'>
+    <text hidden="{{!lisshow}}" class='lselect_text'>选择语言</text>
+  <text hidden="{{lisshow}}" class='lselect_text'>{{lselectData[lindex]}}</text>
+  <image class='lselect_img {{lshow&&"lselect_img_rotate"}}' src='/pages/image/san.png'></image>   
+ </view>
+ <view class='loption_box' style='height:{{lshow?(lselectData.length>5?300:lselectData.length*60):0}}rpx;'>
+  <text class='loption' style='{{lindex==lselectData.length-1&&"border:0;"}}' wx:for='{{lselectData}}' wx:key='this' data-lindex='{{index}}' catchtap='loptionTap'>{{item}}</text>
+ </view>
+</view>
+<!--
+ show&&"select_img_rotate"-----给显示框右边的下拉箭头添加动画
+
+ height:{{show?(selectData.length>5?300:selectData.length*60):0}}rpx;-----给改变下拉框高度，实现下拉框的显示隐藏，每个下拉选项的高度为60，下拉框的最大高度这里设置的是300，所以这里写成当数据长度大于5时，下拉框高度为300，反之下拉框高度为数据长度乘以60
+
+ index==selectData.length-1&&"border:0;"-----取消下拉选项的最后一个的下边框
+ -->
