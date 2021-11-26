@@ -1,0 +1,8 @@
+
+<image src="cloud://cloud1-1gh5zqh504de0f8e.636c-cloud1-1gh5zqh504de0f8e-1307731605/image/pic1.png" class="pic1-1" mode='widthFix'></image>
+<image src="cloud://cloud1-1gh5zqh504de0f8e.636c-cloud1-1gh5zqh504de0f8e-1307731605/image/pic1.2.png" class="pic1-2" bindtap="onTapButton"></image>
+
+<image src="cloud://cloud1-1gh5zqh504de0f8e.636c-cloud1-1gh5zqh504de0f8e-1307731605/image/shou1.png" class="shou1" ></image>
+<image src="cloud://cloud1-1gh5zqh504de0f8e.636c-cloud1-1gh5zqh504de0f8e-1307731605/image/shou2.png" class="shou2"></image>
+
+

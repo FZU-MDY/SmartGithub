@@ -1,0 +1,47 @@
+<!--pages/test/test.wxml-->
+<view class="background">
+  <scroll-view scroll-y="true" style="height: 100%;" >
+    <image class="background_image" wx:if="{{ok1}}" src="cloud://cloud1-1gh5zqh504de0f8e.636c-cloud1-1gh5zqh504de0f8e-1307731605/image/1.png" mode="widthFix"></image> 
+    <image class="background_image" wx:if="{{ok2}}" src="cloud://cloud1-1gh5zqh504de0f8e.636c-cloud1-1gh5zqh504de0f8e-1307731605/image/2.png" mode="widthFix"></image>
+    <image class="background_image" wx:if="{{ok3}}" src="cloud://cloud1-1gh5zqh504de0f8e.636c-cloud1-1gh5zqh504de0f8e-1307731605/image/3.png" mode="widthFix"></image>
+    <image class="background_image" wx:if="{{elsepage}}" src="cloud://cloud1-1gh5zqh504de0f8e.636c-cloud1-1gh5zqh504de0f8e-1307731605/image/4.png" mode="widthFix"></image>
+    <image class="background_image" wx:if="{{SSHkey}}" src="cloud://cloud1-1gh5zqh504de0f8e.636c-cloud1-1gh5zqh504de0f8e-1307731605/image/5.png" mode="widthFix"></image>
+    <image class="background_image" wx:if="{{newSSHkey}}" src="cloud://cloud1-1gh5zqh504de0f8e.636c-cloud1-1gh5zqh504de0f8e-1307731605/image/6.png" mode="widthFix"></image>
+    <input hidden="{{!ok1}}" style="width: 43.5%" class="input1" name="username" bindinput="UsernameInput"/>
+    <input hidden="{{!ok2}}" style="width: 43.5%" class="input2" name="useremail" bindinput="UseremailInput"/>
+    <input hidden="{{!ok3}}" style="width: 43.5%" class="input3" name="userkey" bindinput="UserkeyInput"/>
+    <text hidden="{{!ok1}}"class="annotation1">输入git config --global user.name "Your Name"</text>
+    <text hidden="{{!ok2}}"class="annotation2">输入git config --global user.email "email@example.com"</text>
+    <text hidden="{{!ok3}}"class="annotation3">输入ssh-keygen -t rsa -C "youremail@example.com"创建SSH Key,输入完成后一路回车，使用默认值即可，最后在用户主目录里找到.ssh目录，里面有id_rsa和id_rsa.pub两个文件，这两个就是SSH Key的秘钥对，id_rsa是私钥，不能泄露出去，id_rsa.pub是公钥，可以放心地告诉任何人。</text>  
+    <text hidden="{{!newSSHkey}}"class="annotation4">Title可任意填写</text>
+    <text hidden="{{!newSSHkey}}"class="annotation5">在Key文本框里粘贴id_rsa.pub文件的内容</text>
+    <button hidden="{{!ok1}}"class="ok1button" bindtap="go_ok2" style="width: 2%;">OK</button>
+    <button hidden="{{!ok2}}"class="ok2button" bindtap="go_ok3" style="width: 2%;">OK</button>
+    <button hidden="{{!ok3}}"class="ok3button" bindtap="go_elsepage" style="width: 2%;">OK</button>
+    <button hidden="{{!elsepage}}" style="width: 17.5%;" class="elsepagebutton" bindtap="go_SSHkey"><text>SSH and GPG keys</text>
+    </button>
+    <button hidden="{{!SSHkey}}" style="width: 8%;" class="SSHkeybutton" bindtap="go_newSSHkey"><text>New SSH key</text>
+    </button>
+    <button hidden="{{!newSSHkey}}" style="width: 9%;" class="newSSHkeybutton" bindtap="go_addnewSSHkey"><text>Add SSH key</text>
+    </button>
+    <view class="wrapper" style="left: {{left}}; top: {{top}};">
+        <view class="circle"><image style="width: 14.2px; height: 16.2px;" src="cloud://cloud1-1gh5zqh504de0f8e.636c-cloud1-1gh5zqh504de0f8e-1307731605/image/shou2.png"></image></view>
+        <view class="finger"><image style="width: 18px; height: 22px;" src="cloud://cloud1-1gh5zqh504de0f8e.636c-cloud1-1gh5zqh504de0f8e-1307731605/image/shou1.png"></image></view>
+    </view>
+  </scroll-view> 
+</view>
+<!-- 遮罩层 --> 
+<view class="mask" wx:if="{{showModal}}"></view> 
+<!-- 弹出层 --> 
+<view class="modalDlg" wx:if="{{showModal}}"> 
+<!-- 二维码或其他图片 -->
+  <image class="image1" src="cloud://cloud1-1gh5zqh504de0f8e.636c-cloud1-1gh5zqh504de0f8e-1307731605/image/cat.jpg" mode='aspectFill'></image>
+  <image class="image2" src="cloud://cloud1-1gh5zqh504de0f8e.636c-cloud1-1gh5zqh504de0f8e-1307731605/image/logo.jpg" mode='aspectFill'></image> 
+
+  <view class="test">恭喜你完成本次教学内容</view> 
+  <view class="flex-around"style="width:100%">       
+    <view bindtap="cancel" class="btn cancel">Again</view> 
+    <view bindtap="confirm" class="btn confirm">OK</view> 
+  </view> 
+ </view>
+

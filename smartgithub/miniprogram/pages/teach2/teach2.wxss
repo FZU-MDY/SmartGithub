@@ -1,0 +1,44 @@
+.background_image{
+  width: 100%;
+  filter: brightness(70%);
+}
+.wrapper {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  /* margin: -250px 0 0 -250px; */
+}   
+.circle {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin: -15px 0 0 -4px;
+  background:  center center no-repeat;
+  animation: circleHide 1s ease infinite both;
+}
+.finger {
+  background: center center no-repeat;
+  margin: 0 0 0 6px;
+  animation: fingerHandle 1s ease infinite both;
+}
+@keyframes fingerHandle {
+  0% {
+      transform: none;
+  }
+  70% {
+      transform: scale3d(1, .7, 1);
+  }
+  100% {
+      transform: none;
+  }
+}
+.word{
+  color: white;
+  position: relative;
+  z-index: 99;
+  text-align: center;
+  font-size: 23rpx;
+  /* color: whitesmoke; */
+  left: 120rpx;
+  bottom: 330rpx;
+}

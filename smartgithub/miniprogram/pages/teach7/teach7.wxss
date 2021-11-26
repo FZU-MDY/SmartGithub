@@ -1,0 +1,179 @@
+.background_image{
+  width: 100%;
+  filter: brightness(70%);
+}
+.hide{
+  display: none;
+}
+.show{
+  display: block;
+}
+
+.Settings{
+  top: 40%;
+  left: 81.2%;
+  position: absolute;
+  font-size: 10px;
+  height: 2.3%;
+  line-height: 1.1%;
+  padding-left: 1.1%;
+  word-break:keep-all;     
+  white-space:nowrap; 
+  color: gray;
+  border: 1px solid red; 
+  border-radius: 2px;  
+  background-color: white;
+}
+.Settings text{
+  display: table-cell;
+}
+.organization{
+  top: 38%;
+  left: 10%;
+  position: absolute;
+  font-size: 10px;
+  height: 2.1%;
+  line-height: 70%;
+  padding-left: 1.1%;
+  word-break:keep-all;     
+  white-space:nowrap; 
+  color: gray;
+  border: 1px solid red; 
+  border-radius: 2px;  
+  background-color: white;
+}
+.organization text{
+  display: table-cell;
+}
+.new_organization{
+  top: 13%;
+  left: 78%;
+  position: absolute;
+  font-size: 10px;
+  height: 2%;
+  line-height: 50%;
+  margin-left: 0rpx;
+  padding-left: 0rpx;
+  word-break:keep-all;     
+  white-space:nowrap; 
+  color: gray;
+  border: 1px solid red; 
+  border-radius: 2px;  
+  background-color: white;
+}
+.new_organization text{
+  display: table-cell;
+}
+.new_text{
+  top: 13%;
+  left: 58%;
+  position: absolute;
+  font-size: 15px;
+  color: blue;
+}
+.create_organization{
+  top: 18.4%;
+  left: 3.6%;
+  position: absolute;
+  font-size: 9px;
+  height: 0.9%;
+  line-height: 50%;
+  padding-right: 1.5%;
+  text-align: justify;
+  color: white;
+  border: 1px solid red; 
+  border-radius: 2px;  
+  background-color:black;
+}
+.input_name{
+  top: 22.3%;
+  left: 27.5%;
+  position: absolute;
+  height: 2.2%;
+  min-height: 1.2%;
+  border: 5px solid lightpink;
+  border-width: 2px;
+  font-size: 9px;
+}
+.text_name{
+  top: 18.5%;
+  left: 46%;
+  position: absolute;
+  font-size: 15px;
+  color: blue;
+}
+.input_email{
+  top: 31.2%;
+  left: 27.5%;
+  position: absolute;
+  height: 2.2%;
+  min-height: 1.2%;
+  border: 5px solid lightpink;
+  border-width: 2px;
+  font-size: 9px;
+}
+.text_email{
+  top: 28%;
+  left: 46%;
+  position: absolute;
+  font-size: 15px;
+  color: blue;
+}
+.set_organization{
+  top: 77%;
+  left: 28%;
+  position: absolute;
+  height: 4.6%;
+  font-size: 10px;
+  background-color:green;
+  color: black;
+  border: 1px solid red; 
+  border-radius: 2px; 
+  word-break:keep-all;     
+  white-space:nowrap; 
+}
+
+.wrapper {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  /* margin: -250px 0 0 -250px; */
+}   
+.circle {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin: -15px 0 0 -4px;
+  background:  center center no-repeat;
+  animation: circleHide 1s ease infinite both;
+}
+.finger {
+  background: center center no-repeat;
+  margin: 0 0 0 6px;
+  animation: fingerHandle 1s ease infinite both;
+}
+@keyframes fingerHandle {
+  0% {
+      transform: none;
+  }
+  70% {
+      transform: scale3d(.8, .8, .8);
+  }
+  100% {
+      transform: none;
+  }
+}
+@keyframes circleHide {
+  0% {
+      opacity: 0;
+      transform: scale3d(0, 0, 0);
+  }
+  70% {
+      opacity: 1;
+      transform: scale3d(1.0, 1.0, 1.0);
+  }
+  100% {
+      opacity: 0;
+      transform: scale3d(0, 0, 0);
+  }
+}

@@ -1,0 +1,91 @@
+/**index.wxss**/
+.userinfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #aaa;
+  }
+  
+  .userinfo-avatar {
+    overflow: hidden;
+    width: 128rpx;
+    height: 128rpx;
+    margin: 20rpx;
+    border-radius: 50%;
+  }
+  
+  .usermotto {
+    margin-top: 200px;
+  }
+  .pic1-1 {
+    width:100%;
+  }
+  .pic4-3{
+    top:332rpx;
+    left:472rpx;
+    position: absolute;
+    width:198rpx;
+    height:45.1rpx;
+  }
+  .pic4-4{
+    top:163rpx;
+    left:683rpx;
+    position: absolute;
+    width:35.8rpx;
+    height:26.6rpx;
+  }
+  .pic4-5{
+    top:170rpx;
+    left:234.7rpx;
+    position: absolute;
+    width:248rpx;
+    height:14.6rpx;
+    background-color: blue;
+    display:block;
+  }
+  .pic4-5-n{
+    top:170rpx;
+    left:234.7rpx;
+    position: absolute;
+    width:248rpx;
+    height:14.6rpx;
+    background-color: blue;
+    display:none;
+  }
+  .shou1{
+    position: absolute;
+    top: 54%;
+    left:93%;
+    height:12%;
+    width:3%;
+    animation: fingerHandle 1s ease infinite both;
+  }
+
+  @keyframes fingerHandle {
+    0% {
+        transform: none;
+    }
+    70% {
+        transform: scale3d(.8, .8, .8);
+    }
+    100% {
+        transform: none;
+    }
+  }
+  @keyframes circleHide {
+    0% {
+        opacity: 0;
+        transform: scale3d(0, 0, 0);
+    }
+    70% {
+        opacity: 1;
+        transform: scale3d(1.0, 1.0, 1.0);
+    }
+    100% {
+        opacity: 0;
+        transform: scale3d(0, 0, 0);
+    }
+  }
+  
+
+  

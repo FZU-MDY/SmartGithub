@@ -1,0 +1,13 @@
+<image src="cloud://cloud1-1gh5zqh504de0f8e.636c-cloud1-1gh5zqh504de0f8e-1307731605/image/total_black.png" class="pic1-1" mode='widthFix'></image>
+
+<image src="cloud://cloud1-1gh5zqh504de0f8e.636c-cloud1-1gh5zqh504de0f8e-1307731605/image/title.png" class="title" ></image>
+
+<input type='text' class='userBox' name='repoName'  bindinput='getName'></input>
+
+<view class="hint1" hidden="{{control_remote}}">连接本地仓库和远程仓库指令git remote add origin 仓库url(在本页面不用写url)</view>
+<view  class="hint2" hidden="{{!control_remote}}">操作成功</view>
+
+<image src="cloud://cloud1-1gh5zqh504de0f8e.636c-cloud1-1gh5zqh504de0f8e-1307731605/image/pic5.2.png" class="pic5-2"  hidden="{{!control_remote}}" bindtap='tap'></image>
+
+<image src="cloud://cloud1-1gh5zqh504de0f8e.636c-cloud1-1gh5zqh504de0f8e-1307731605/image/shou1.png" class="shou1" ></image>
+<image src="cloud://cloud1-1gh5zqh504de0f8e.636c-cloud1-1gh5zqh504de0f8e-1307731605/image/shou2.png" class="shou2"></image>
