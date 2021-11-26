@@ -1,0 +1,81 @@
+{
+  "pages":[    
+    "pages/firstpage/firstpage",   
+     "pages/search1/search1",
+     "pages/mypage/mypage",  
+     "pages/repo1/repo1",
+      "pages/repo0/repo0",  
+     "pages/repo2/repo2",
+    "pages/repo3/repo3",  
+     "pages/favorpage/favorpage",
+     "pages/intro_insight/intro_insight",
+     "pages/teach1/teach1",  
+    "pages/intro_action/intro_action", 
+    "pages/intro_code/intro_code",
+    "pages/intro_issue/intro_issue", 
+    "pages/homepage/homepage", 
+    "pages/review_approve_request/review_approve_request", 
+    "pages/invite_member/invite_member", 
+    "pages/info/info", 
+    "pages/about/about", 
+    "pages/verify/verify", 
+    "pages/teach2/teach2",
+    "pages/teach3/teach3",
+    "pages/teach4/teach4",
+    "pages/teach5/teach5",
+    "pages/teach6/teach6",
+    "pages/teach7/teach7",
+    "pages/teach8/teach8",
+    "pages/code1/code1",  
+    "pages/intro_pr/intro_pr",
+    "pages/intro_project/intro_project",  
+    "pages/intro_security/intro_security", 
+    "pages/intro_setting/intro_setting", 
+    "pages/intro_wiki/intro_wiki", 
+    "pages/repo_info/repo_info", 
+    "pages/repo/repo", 
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/drag_remote_repo/grag_remote",
+    "pages/operate_push/push",
+    "pages/page2/pg2",
+    "pages/page3/pg3",
+    "pages/page4/pg4",
+    "pages/pushed/pushed",
+    "pages/remote_final/final",
+    "pages/create_repo2/pg1",
+    "pages/retrive/retriving",
+    "pages/command/index",
+    "pages/teachpage/teachpage"
+  ],
+
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Smart GiHub",
+    "navigationBarTextStyle":"black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "color": "5E7972",
+    "selectedColor": "286858",
+    "borderStyle": "white",
+    "backgroundColor": "F2F1EF",
+    "list": [
+      {
+        "selectedIconPath": "images/首页绿色1.png",
+        "iconPath": "images/首页绿色1.png",
+        "pagePath": "pages/firstpage/firstpage",
+        "text": "首页"
+      },
+      {
+        "selectedIconPath": "images/我的.png",
+        "iconPath": "images/我的.png",
+        "pagePath": "pages/mypage/mypage",
+        "text": "我的"
+      }
+      
+    ]
+  }
+}
