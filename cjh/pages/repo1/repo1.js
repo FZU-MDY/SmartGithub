@@ -1,78 +1,58 @@
 // pages/repo1/repo1.js
+var app = getApp()
 Page({
 
-  /**
-   * 页面的初始数据
-   */
   data: {
-
+reponame:'',
+list:'',
+flag:'1',
   },
-
-  /**
-   * 生命周期函数--监听页面加载
-   */
-  onLoad: function (options) {
-
-  },
-
-  /**
-   * 生命周期函数--监听页面初次渲染完成
-   */
-  onReady: function () {
-
-  },
-
-  /**
-   * 生命周期函数--监听页面显示
-   */
-  onShow: function () {
-
-  },
-
-  /**
-   * 生命周期函数--监听页面隐藏
-   */
-  onHide: function () {
-
-  },
-
-  /**
-   * 生命周期函数--监听页面卸载
-   */
-  onUnload: function () {
-
-  },
-
-  /**
-   * 页面相关事件处理函数--监听用户下拉动作
-   */
-  onPullDownRefresh: function () {
-
-  },
-
-  /**
-   * 页面上拉触底事件的处理函数
-   */
-  onReachBottom: function () {
-
-  },
-
-  /**
-   * 用户点击右上角分享
-   */
-  onShareAppMessage: function () {
-
-  },
-  onLoad: function () {
-    wx.setNavigationBarTitle({
-      title: 'Smart GitHub',
-    })
-  },
-  go2code1: function(){
+click:function(){
+  console.log(app.globalData.list)
+  this.setData({
+    list:app.globalData.list,
+    flag:null
+  })
+  
+},
+dir:function(e){
+  var index=e.currentTarget.dataset.a;
+  app.globalData.path=index;
+  var type=e.currentTarget.dataset.b;
+  if(type!="dir"){
+    app.globalData.isdir=null
     wx.navigateTo({
- 
-      url: '/pages/code1/code1',
+      url: '/pages/repo3/repo3',
  
       })
   }
+  else{
+    app.globalData.isdir=1
+  
+  var that = this;
+  wx.cloud.callFunction({
+    name: "search5",   //云函数中文件夹的名称
+    data: {
+     name:app.globalData.name+'/'+app.globalData.repo+'/contents/'+app.globalData.path,
+    },
+    success: function (res)  {
+      var list=JSON.parse(res.result)
+      
+      console.log(list)
+      app.globalData.list=list; 
+    }
+  })
+  
+   wx.navigateTo({
+     url: '/pages/repo2/repo2',
+
+     })}
+},
+onLoad: function () {
+  wx.setNavigationBarTitle({
+    title: 'Code',
+  })
+}
+  
+ 
 })
