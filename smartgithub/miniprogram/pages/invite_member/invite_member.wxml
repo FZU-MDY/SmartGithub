@@ -1,0 +1,39 @@
+<view class="background">
+  <scroll-view scroll-y="true" style="height: 100%;" >
+    <image class="background_image" wx:if="{{your_organizations}}" src="cloud://cloud1-1gh5zqh504de0f8e.636c-cloud1-1gh5zqh504de0f8e-1307731605/image/bg1.png" mode="widthFix"></image>
+    <image class="background_image" wx:if="{{MDY_TEAM}}" src="cloud://cloud1-1gh5zqh504de0f8e.636c-cloud1-1gh5zqh504de0f8e-1307731605/image/bg7.png" mode="widthFix"></image>
+    <image class="background_image" wx:if="{{Invite_someone}}" src="cloud://cloud1-1gh5zqh504de0f8e.636c-cloud1-1gh5zqh504de0f8e-1307731605/image/bg8.png" mode="widthFix"></image>
+    <image class="background_image" wx:if="{{Invite}}" src="cloud://cloud1-1gh5zqh504de0f8e.636c-cloud1-1gh5zqh504de0f8e-1307731605/image/bg9.png" mode="widthFix"></image>
+    <image class="background_image" wx:if="{{Send_invitation}}" src="cloud://cloud1-1gh5zqh504de0f8e.636c-cloud1-1gh5zqh504de0f8e-1307731605/image/bg10.png" mode="widthFix"></image>
+    <image class="background_image" wx:if="{{Settings}}" src="cloud://cloud1-1gh5zqh504de0f8e.636c-cloud1-1gh5zqh504de0f8e-1307731605/image/bg11.png" mode="widthFix"></image>
+    <image class="background_image" wx:if="{{Member_privileges}}" src="cloud://cloud1-1gh5zqh504de0f8e.636c-cloud1-1gh5zqh504de0f8e-1307731605/image/bg12.png" mode="widthFix"></image>
+    <image class="background_image" wx:if="{{Sure_read}}" src="cloud://cloud1-1gh5zqh504de0f8e.636c-cloud1-1gh5zqh504de0f8e-1307731605/image/bg13.png" mode="widthFix" bindtap="go_dev"></image>
+
+    <button hidden="{{!your_organizations}}" style="width: 14.7%;" class="Your_organizations" bindtap="go_MDY_TEAM"><text>Your organizations</text> 
+    </button>
+    <button hidden="{{!MDY_TEAM}}" style="width: 6.2%;" class="MDY_TEAM" bindtap="go_invite_someone"><text>MDY-TEAM</text>
+    </button>
+    <text hidden="{{!MDY_TEAM}}" class="text_MDY_TEAM">点击进入之前创建的组织</text>
+    <button hidden="{{!Invite_someone}}" style="width: 11.3%;" class="invite_someone" bindtap="go_invite"><text>Invite someone</text>
+    </button>
+    <button hidden="{{!Invite}}" style="width: 5.6%;" class="invite" bindtap="go_send_invitation"><text>Invite</text>
+    </button>
+    <input hidden="{{!Invite}}" style="width: 36%;" class="input_member" name=Member" placeholder="Search by username, full name, or email address"
+    bindinput ="MemberInput"/>
+    <text hidden="{{!Invite}}" class="text_invite">输入要邀请的团队成员名称"maple-leaf10"</text>
+    <button hidden="{{!Send_invitation}}" style="width: 13%;" class="send_invitation" bindtap="go_read"><text>Send invitation</text>
+    </button>
+    <button hidden="{{!Settings}}" style="width: 5.2%;" class="settings" bindtap="go_member_privileges"><text>Settings</text>
+    </button>
+    <text hidden="{{!Settings}}" style="width: 550px;" class="text_settings">恭喜！已经有一个成员同意你的邀请了。不要忘记把队友的权限设为"Read"</text>
+    <button hidden="{{!Member_privileges}}" style="width: 18%;" class="member_privileges" bindtap="go_sure_read"><text>Member privileges</text>
+    </button>
+    <text hidden="{{!Sure_read}}" style="width: 550px;" class="text_read">记得确认队友的权限为"Read"，防止其错误修改项目内容</text>
+
+    <view class="wrapper" style="left: {{left}}; top: {{top}};">
+        <view class="circle"><image style="width: 14.2px; height: 16.2px;" src="cloud://cloud1-1gh5zqh504de0f8e.636c-cloud1-1gh5zqh504de0f8e-1307731605/image/shou2.png"></image></view>
+        <view class="finger"><image style="width: 18px; height: 22px;" src="cloud://cloud1-1gh5zqh504de0f8e.636c-cloud1-1gh5zqh504de0f8e-1307731605/image/shou1.png"></image></view>
+    </view>
+  </scroll-view> 
+</view>
+   

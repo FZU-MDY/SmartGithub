@@ -1,0 +1,298 @@
+/* pages/firstpage/firstpage.wxss */
+.bg-image{
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: -1;
+}
+.a{
+  position:absolute;background:white;width: 90%;margin-top:29%;margin-left: 5%;color: #5E7972;border-radius: 50rpx;  font-size: 100%;
+  display:flex;
+ justify-content:center;
+align-items: center;
+}
+ .b{
+  width: 150rpx;
+  height: 150rpx;
+  }
+ .tapbtn1{
+  flex-direction: row;
+  align-items: center;
+   position:fixed;
+   margin:14% 11%;
+   display: flex;
+   position:absolute;
+ }
+ .tapbtn1 button[plain]{
+  border:none; 
+ }
+.tapbtn11{
+  padding: 0;
+   width: 150rpx;
+  height: 150rpx;
+border:none;
+  }
+.tapbtn12{
+  padding: 0;
+  border:none; 
+  width: 150rpx;
+  height: 150rpx;
+margin-left:10%;
+
+}
+
+.serimage{
+  width: 1000%;
+  height: 1000%;
+
+
+
+}
+
+
+.view-contain-ti {
+  display: flex;
+  height: 60px;
+  top: 25%;
+  width: 78%;
+  min-width: 78%;
+  height: 40px;
+  min-height: 40px;
+  margin-left: 18%;
+  border: 3rpx solid #5E7972;
+  border-radius: 10rpx;
+  position: absolute;
+}
+.b1{
+  top: 26%;
+  width: 60rpx;
+  height: 60rpx;
+ 
+margin-left: 7%;
+position: absolute;
+ }
+
+ .imagesize{
+  display:flex;
+  height: 110px;                    
+  justify-content: center;        
+  align-items:center;               
+   }
+ .imagesize image{ 
+   width:90%;
+   height:80%;
+   display: flex;
+  justify-content:center;
+  margin: 0 auto;
+  opacity: 0.8;
+  margin-top: 2%;
+  z-index: -1;
+  border-radius: 10rpx;
+   }
+
+   .imagesize1{
+    display:flex;
+    height: 110px;                    
+    justify-content: center;        
+    align-items:center;      
+    z-index: 999;         
+     }
+     .imagesize1 image{ 
+      width:8%;
+      height:18%;
+      display: flex;
+     justify-content:center;
+     margin: 0 20%;
+     opacity: 1;
+     margin-top: 105%;
+     margin-left: -55%;
+     z-index: 999;
+      }
+      .type1{
+        position:absolute;
+        background:transparent;
+        width: 90%;
+        margin-top:33%;
+        margin-left: 5%;
+        color: #5E7972;
+        border-radius: 50rpx; 
+         font-size: 120%;
+     text-indent: 15%;
+        font-weight: bold;
+        font-size: 90%;
+        display: block;
+        height: 5%;
+      line-height: 220%;
+      z-index: 999;
+       }
+       .type2{
+        position:absolute;
+        background:transparent;
+        width: 90%;
+        margin-top:43%;
+        margin-left: 1%;
+        color: #5E7972;
+        border-radius: 50rpx; 
+         font-size: 120%;
+     text-indent: 10%;
+        font-size: 90%;
+        display: block;
+        height: 5%;
+      line-height: 220%;
+      z-index: 999;
+       }
+       .tapbtn image{
+        width: 700rpx;
+        height: 180rpx;
+        border-radius: 30rpx;  
+        }
+        .tapbtn{
+          padding: 0;
+           width: 700rpx;
+          height: 180rpx;
+        border:none;
+
+          }
+          .tapbtn0{
+            flex-direction: row;
+            align-items: center;
+             position: absolute;
+             margin:30% 0.5%;
+             display: flex;
+             z-index: 90;
+             opacity: 0.75;
+             
+           }
+           .tapbtn0 button[plain]{
+            border:none; 
+           }
+
+
+
+           page{
+            background: #f3f7f7;
+           }
+           .tselect_box{
+            background: transparent;
+            width: 50%;
+            margin: 45% 40%;
+            width: 35%;
+            position: absolute;
+            z-index: 999;
+           }
+           .tselect{
+            box-sizing: border-box;
+            width: 100%;
+            height: 70rpx;
+            border:1px solid #B78781;
+            border-radius: 8rpx;
+            display: flex;
+            align-items: center;
+            padding: 0 20rpx;
+           }
+           .tselect_text{
+            font-size: 30rpx;
+            font-weight: bold;
+            flex: 1;
+            color: #5E7972;
+           }
+           .tselect_img{
+            width: 50rpx;
+            height: 50rpx;
+            display: block;
+            transition:transform 0.3s;
+           }
+           .tselect_img_rotate{
+            transform:rotate(180deg); 
+           }
+           .toption_box{
+            position: absolute;
+            top: 70rpx;
+            width: 100%;
+            border:1px solid #B78781;
+            box-sizing: border-box;
+            height: 0;
+            overflow-y: auto;
+            border-top: 0;
+            background: transparent;
+            transition: height 0.3s;
+           }
+           .toption{
+            display: block;
+            line-height: 40rpx;
+            font-size: 30rpx;
+            font-weight: bold;
+            border-bottom: 1px solid #B78781;
+            padding: 10rpx;
+            color: #5E7972;
+           }
+        
+           .lselect_box{
+            background: transparent;
+            width: 50%;
+            margin: 45% 2%;
+            width: 35%;
+            position: absolute;
+            z-index: 999;
+           }
+           .lselect{
+            box-sizing: border-box;
+            width: 100%;
+            height: 70rpx;
+            border:1px solid #B78781;
+            border-radius: 8rpx;
+            display: flex;
+            align-items: center;
+            padding: 0 20rpx;
+           }
+           .lselect_text{
+            font-size: 30rpx;
+            font-weight: bold;
+            flex: 1;
+            color: #5E7972;
+           }
+           .lselect_img{
+            width: 50rpx;
+            height: 50rpx;
+            display: block;
+            transition:transform 0.3s;
+           }
+           .lselect_img_rotate{
+            transform:rotate(180deg); 
+           }
+           .loption_box{
+            position: absolute;
+            top: 70rpx;
+            width: 100%;
+            border:1px solid #B78781;
+            box-sizing: border-box;
+            height: 0;
+            overflow-y: auto;
+            border-top: 0;
+            background: transparent;
+            transition: height 0.3s;
+           }
+           .loption{
+            display: block;
+            line-height: 40rpx;
+            font-size: 30rpx;
+            font-weight: bold;
+            border-bottom: 1px solid #B78781;
+            padding: 10rpx;
+            color: #5E7972;
+           }
+
+           .bt1{
+            margin-top:5%; 
+            color: #5E7972; 
+             border-radius: 50rpx;    
+         
+              display: block;  
+              line-height: 220%;
+              z-index: 9;
+          
+          
+           }
+           .trending{
+             margin-top:60%;
+           }
