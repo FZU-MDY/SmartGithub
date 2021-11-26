@@ -1,0 +1,43 @@
+<view>
+<image class="bg-image" mode="scaleToFill" src="http://r.photo.store.qq.com/psc?/V13o297P0pKsa6/45NBuzDIW489QBoVep5mcRCTnuQAMH0zq4JdHDzfoODgN3qYW*6YU8HX3dQKGZkzR.wGG26HbHb3o1g4eNAqs5mDFyPnVxyNqvRjq33BQdI!/r"></image>
+</view>
+<view class="SearchBox">
+  <view class="Search_input_top_box">
+    
+    <input class="Search_Input" focus="{{name_focus}}" placeholder='请输入关键词搜索GitHub仓库'  placeholder-style="color:#5E7972;" bindinput='inputvalue' value="{{input_value}}"></input>
+    <view class="Search_btn" bindtap='search'>{{SearchText}}</view>
+  </view>
+  <view class="Search_xian"></view>
+  <!--搜索记录盒子-->
+  <view class="Search_record_box">
+    <view class="Search_record_text">
+      <text>搜索记录</text>
+    </view>
+    <button bindtap="delete_list"style="background:transparent;width: 35%;margin-top:-7%;margin-left: 68%;color: #5E7972; font-size: 28rpx; text-indent:20%;">删除记录</button>
+    <!--记录词的盒子-->
+    <view class="History_box">
+      <view class="History-list">
+        <text wx:for="{{listarr}}" data-text="{{item}}" wx:key="key" bindtap='this_value'>{{item}}</text>
+      </view>
+    </view>
+  </view>
+
+</view>
+
+<view wx:for="{{list}}">
+  <view class='tapbtn01'>
+<button data-a="{{item.name}}"data-b="{{item.owner.login}}"class="tapbtn1" size="mini"plain="true" bindtap="go2repo1">
+    <image  class="c1" src='http://m.qpic.cn/psc?/V13o297P0pKsa6/45NBuzDIW489QBoVep5mcVLic6DQzq*DdSxj70pcRrW*f5Ujcw6XoUhmlnEwUAfVvxXi1x1v85ySw.ePP7Od14mMgQn*CmRlvqbyncsfW.g!/b&bo=vwGAAL8BgAADFzI!&rf=viewer_4'></image></button></view>
+<view class='imagesize11'>
+  <image src="http://m.qpic.cn/psc?/V13o297P0pKsa6/45NBuzDIW489QBoVep5mcex9v65odxH1rY9xXTvAOvLmhJV.xIdAtrZlHMOJ.N2nXaHfh6YWT8j.TMt8.VgHUQXeRq1Bkp.XkKXN0cs6cEw!/b&bo=yADIAMgAyAADFzI!&rf=viewer_4" class='in-image'   >
+   
+  </image>
+</view>
+      <view >仓库名：{{item.name}}</view>
+      <view >简介：{{item.description}}</view>
+      <view >语言：{{item.language}}</view>
+      <view >star数：{{item.stargazers_count}}</view>
+      <view >增加的star数：{{item.owner.login}}</view>
+      <view >fork数：{{item.forks_count}}</view>
+      <view > -------- </view>
+ </view>  
