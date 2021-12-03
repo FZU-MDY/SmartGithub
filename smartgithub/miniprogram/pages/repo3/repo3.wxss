@@ -6,8 +6,11 @@
   z-index: -1;
 }
 .type11{
-    
   background:transparent;
-
-  margin-top:5%;margin-left: 2%;color: #5E7972;border-radius: 50rpx;  font-size: 85%;
+  margin-top:5%;
+  margin-left: 5%;
+  margin-right: 5%;
+  color: #5E7972;
+  border-radius: 50rpx;  
+  font-size: 105%;
  }
