@@ -1,0 +1,412 @@
+/* pages/test1/test1.wxss */
+.background_image{
+  width: 100%;
+  filter: brightness(70%);
+}
+.input1{
+  top: 5%;
+  left: 1.5%;
+  position: absolute;
+  height: 3.2%;
+  min-height: 3.2%;
+  border: 5px solid rgb(173, 161, 163);
+  border-width: 2px;
+  font-size: 9px;
+  color: beige;
+}
+.ok1button{
+  top: 5%;
+  left: 47%;
+  position: absolute;
+  height: 4%;
+  line-height: 5%;
+  background-color: rgb(127, 127, 133);
+  color: rgb(0, 0, 0);
+  font-size: 10px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+.annotation1{
+  top: 5%;
+  left: 58%;
+  position: absolute;
+  font-size: 11px;
+  color: blue;
+}
+.input2{
+  top: 12.5%;
+  left: 1.5%;
+  position: absolute;
+  height: 3.2%;
+  min-height: 3.2%;
+  border: 5px solid rgb(173, 161, 163);
+  border-width: 2px;
+  font-size: 9px;
+  color: beige;
+}
+.ok2button{
+  top: 12.5%;
+  left: 47%;
+  position: absolute;
+  height: 4%;
+  line-height: 5%;
+  background-color: rgb(127, 127, 133);
+  color: rgb(0, 0, 0);
+  font-size: 10px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+.annotation2{
+  top: 12.5%;
+  left: 58%;
+  position: absolute;
+  font-size: 11px;
+  color: blue;
+}
+.input3{
+  top: 19.5%;
+  left: 1.5%;
+  position: absolute;
+  height: 3.2%;
+  min-height: 3.2%;
+  border: 5px solid rgb(173, 161, 163);
+  border-width: 2px;
+  font-size: 9px;
+  color: beige;
+}
+.ok3button{
+  top: 19.5%;
+  left: 47%;
+  position: absolute;
+  height: 4%;
+  line-height: 5%;
+  background-color: rgb(127, 127, 133);
+  color: rgb(0, 0, 0);
+  font-size: 10px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+.annotation3{
+  top: 19.5%;
+  left: 58%;
+  position: absolute;
+  font-size: 11px;
+  color: blue;
+}
+.input4{
+  top: 30.8%;
+  left: 1.5%;
+  position: absolute;
+  height: 3.2%;
+  min-height: 3.2%;
+  border: 5px solid rgb(173, 161, 163);
+  border-width: 2px;
+  font-size: 9px;
+  color: beige;
+}
+.ok4button{
+  top: 31%;
+  left: 47%;
+  position: absolute;
+  height: 4%;
+  line-height: 5%;
+  background-color: rgb(127, 127, 133);
+  color: rgb(0, 0, 0);
+  font-size: 10px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+.annotation4{
+  top: 31%;
+  left: 57%;
+  position: absolute;
+  font-size: 11px;
+  color: blue;
+}
+.ok5button{
+  top: 38%;
+  left: 47%;
+  position: absolute;
+  height: 4%;
+  line-height: 5%;
+  background-color: rgb(127, 127, 133);
+  color: rgb(0, 0, 0);
+  font-size: 10px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+.annotation5{
+  top: 38%;
+  left: 57%;
+  position: absolute;
+  font-size: 11px;
+  color: blue;
+}
+.input6{
+  top: 21.6%;
+  left: 1.5%;
+  position: absolute;
+  height: 3.2%;
+  min-height: 3.2%;
+  border: 5px solid rgb(173, 161, 163);
+  border-width: 2px;
+  font-size: 9px;
+  color: beige;
+}
+.ok6button{
+  top: 21.6%;
+  left: 47%;
+  position: absolute;
+  height: 4%;
+  line-height: 5%;
+  background-color: rgb(127, 127, 133);
+  color: rgb(0, 0, 0);
+  font-size: 10px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+.annotation6{
+  top: 21.6%;
+  left: 58%;
+  position: absolute;
+  font-size: 11px;
+  color: blue;
+}
+.ok7button{
+  top: 21%;
+  left: 20%;
+  position: absolute;
+  height: 4%;
+  line-height: 5%;
+  background-color: rgb(127, 127, 133);
+  color: rgb(0, 0, 0);
+  font-size: 10px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+.ok8button{
+  top: 3.6%;
+  left: 24%;
+  position: absolute;
+  height: 4%;
+  line-height: 5%;
+  background-color: rgb(127, 127, 133);
+  color: rgb(0, 0, 0);
+  font-size: 10px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+.annotation8{
+  top: 3.6%;
+  left: 34%;
+  position: absolute;
+  font-size: 11px;
+  color: blue;
+}
+.input9{
+  top: 30.1%;
+  left: 1.5%;
+  position: absolute;
+  height: 3.2%;
+  min-height: 3.2%;
+  border: 5px solid rgb(173, 161, 163);
+  border-width: 2px;
+  font-size: 9px;
+  color: beige;
+}
+.ok9button{
+  top: 30.1%;
+  left: 47%;
+  position: absolute;
+  height: 4%;
+  line-height: 5%;
+  background-color: rgb(127, 127, 133);
+  color: rgb(0, 0, 0);
+  font-size: 10px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+.annotation9{
+  top: 30.1%;
+  left: 57%;
+  position: absolute;
+  font-size: 11px;
+  color: blue;
+}
+.input10{
+  top: 35.8%;
+  left: 1.5%;
+  position: absolute;
+  height: 3.2%;
+  min-height: 3.2%;
+  border: 5px solid rgb(173, 161, 163);
+  border-width: 2px;
+  font-size: 9px;
+  color: beige;
+}
+.ok10button{
+  top: 35.9%;
+  left: 47%;
+  position: absolute;
+  height: 4%;
+  line-height: 5%;
+  background-color: rgb(127, 127, 133);
+  color: rgb(0, 0, 0);
+  font-size: 10px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+.annotation10{
+  top: 35.9%;
+  left: 57%;
+  position: absolute;
+  font-size: 11px;
+  color: blue;
+}
+.ok11button{
+  top: 44.5%;
+  left: 45%;
+  position: absolute;
+  height: 4%;
+  line-height: 5%;
+  background-color: rgb(127, 127, 133);
+  color: rgb(0, 0, 0);
+  font-size: 10px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+.wrapper {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  /* margin: -250px 0 0 -250px; */
+}   
+.circle {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin: -15px 0 0 -4px;
+  background:  center center no-repeat;
+  animation: circleHide 1s ease infinite both;
+}
+.finger {
+  background: center center no-repeat;
+  margin: 0 0 0 6px;
+  animation: fingerHandle 1s ease infinite both;
+}
+@keyframes fingerHandle {
+  0% {
+      transform: none;
+  }
+  70% {
+      transform: scale3d(.8, .8, .8);
+  }
+  100% {
+      transform: none;
+  }
+}
+@keyframes circleHide {
+  0% {
+      opacity: 0;
+      transform: scale3d(0, 0, 0);
+  }
+  70% {
+      opacity: 1;
+      transform: scale3d(1.0, 1.0, 1.0);
+  }
+  100% {
+      opacity: 0;
+      transform: scale3d(0, 0, 0);
+  }
+}
+.mask {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: #000;
+  z-index: 9;
+  opacity: 0.1;
+}
+  /* 弹出层 */
+  
+.modalDlg {
+  width: 350px;
+  height: 250px;
+  position: fixed;
+  top: 15%;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  border-radius: 13rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  z-index: 10;
+}
+  .flex-around{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  }
+  /* 弹出层里面的图片 */
+  
+.image1{
+  width: 250px;
+  height: 250px;
+  margin: 30rpx auto 0 auto;
+  z-index: 99;
+  position: relative;
+  opacity: 0.1;
+}
+.image2{
+  width: 50px;
+  height: 50px;
+  margin: 30rpx auto 0 auto;
+  z-index: 100;
+  position: absolute;
+}
+  
+  /* 弹出层里面的按钮 */
+  
+  .btn {
+  width: 50px;
+  height: 20px;
+  top: 200rpx;
+  left: 10rpx;
+  background: white;
+  line-height: 20px;
+  text-align: center;
+  color:black;
+  font-size: 13px;
+  margin: 20rpx auto;
+  border: 1px solid black;
+  border-radius: 100rpx;
+  z-index: 999;
+  }
+  /* 弹出层里面的文字 */
+  
+.test {
+  top: 100px;
+  width: 100%;
+  text-align: center;
+  font-size: 16px;
+  margin: 20rpx auto;
+  color: #333;
+  z-index: 100;
+  position: absolute;
+  }
+

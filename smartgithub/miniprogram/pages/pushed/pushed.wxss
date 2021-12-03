@@ -1,0 +1,11 @@
+/* pages/pushed/pushed.wxss */
+  .pic1-1 {
+    width:100%;
+  }
+  .pic5-2{
+    position: absolute;
+    top:0%;
+    left:90%;
+    width:7%;
+    height:7%;
+  }

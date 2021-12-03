@@ -1,0 +1,84 @@
+.background_image{
+  width: 100%;
+  filter: brightness(100%);
+}
+.word1{
+  color: blue;
+  position: relative;
+  z-index: 99;
+  text-align: center;
+  font-size: 12rpx;
+  /* color: whitesmoke; */
+  left: 350rpx;
+  bottom: 360rpx;
+}
+.word2{
+  color: red;
+  position: relative;
+  z-index: 99;
+  text-align: center;
+  font-size: 12rpx;
+  /* color: whitesmoke; */
+  left: 15%;
+  bottom: 360rpx;
+}
+.word3{
+  color: red;
+  position: relative;
+  z-index: 99;
+  text-align: center;
+  font-size: 12rpx;
+  /* color: whitesmoke; */
+  left: 15%;
+  bottom: 320rpx;
+}
+.word4{
+  color: red;
+  position: relative;
+  z-index: 99;
+  text-align: center;
+  font-size: 12rpx;
+  /* color: whitesmoke; */
+  left: 17%;
+  bottom: 315rpx;
+}
+.word5{
+  color: red;
+  position: relative;
+  z-index: 99;
+  text-align: center;
+  font-size: 12rpx;
+  /* color: whitesmoke; */
+  left: 15%;
+  bottom: 295rpx;
+}
+.word6{
+  color: red;
+  position: relative;
+  z-index: 99;
+  text-align: center;
+  font-size: 12rpx;
+  /* color: whitesmoke; */
+  left: 15%;
+  bottom: 290rpx;
+}
+ /**可拖动悬浮按钮样式表**/
+ .btn_Suspension{
+  position: fixed;
+  height: 50rpx;
+  width: 50rpx;
+  background-color: rgba(255, 255, 255, 0.755);
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 99999;
+  box-shadow: 1px 0px 1px 1px #ede7e7;
+}
+.Suspension_logo{
+  position:absolute;
+  height:50%;
+  width:50%;
+  left:23%;
+  top:27%
+}

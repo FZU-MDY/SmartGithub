@@ -1,0 +1,60 @@
+<!--pages/test1/test1.wxml-->
+<view class="background">
+  <scroll-view scroll-y="true" style="height: 100%;" >
+    <image class="background_image" wx:if="{{ok1}}" src="cloud://cloud1-1gh5zqh504de0f8e.636c-cloud1-1gh5zqh504de0f8e-1307731605/image/1.png" mode="widthFix"></image> 
+    <image class="background_image" wx:if="{{ok2}}" src="cloud://cloud1-1gh5zqh504de0f8e.636c-cloud1-1gh5zqh504de0f8e-1307731605/image/a.png" mode="widthFix"></image>
+    <image class="background_image" wx:if="{{ok3}}" src="cloud://cloud1-1gh5zqh504de0f8e.636c-cloud1-1gh5zqh504de0f8e-1307731605/image/b.png" mode="widthFix"></image>
+    <image class="background_image" wx:if="{{ok4}}" src="cloud://cloud1-1gh5zqh504de0f8e.636c-cloud1-1gh5zqh504de0f8e-1307731605/image/c.png" mode="widthFix"></image>
+    <image class="background_image" wx:if="{{ok5}}" src="cloud://cloud1-1gh5zqh504de0f8e.636c-cloud1-1gh5zqh504de0f8e-1307731605/image/d.png" mode="widthFix"></image>
+    <image class="background_image" wx:if="{{ok6}}" src="cloud://cloud1-1gh5zqh504de0f8e.636c-cloud1-1gh5zqh504de0f8e-1307731605/image/e.png" mode="widthFix"></image>
+    <image class="background_image" wx:if="{{ok7}}" src="cloud://cloud1-1gh5zqh504de0f8e.636c-cloud1-1gh5zqh504de0f8e-1307731605/image/f.png" mode="widthFix"></image>
+    <image class="background_image" wx:if="{{ok8}}" src="cloud://cloud1-1gh5zqh504de0f8e.636c-cloud1-1gh5zqh504de0f8e-1307731605/image/g.png" mode="widthFix"></image>
+    <image class="background_image" wx:if="{{ok9}}" src="cloud://cloud1-1gh5zqh504de0f8e.636c-cloud1-1gh5zqh504de0f8e-1307731605/image/h.png" mode="widthFix"></image>
+    <image class="background_image" wx:if="{{ok10}}" src="cloud://cloud1-1gh5zqh504de0f8e.636c-cloud1-1gh5zqh504de0f8e-1307731605/image/i.png" mode="widthFix"></image>
+    <image class="background_image" wx:if="{{ok11}}" src="cloud://cloud1-1gh5zqh504de0f8e.636c-cloud1-1gh5zqh504de0f8e-1307731605/image/j.png" mode="widthFix" bindtap="go_okfinish"></image>
+    <input hidden="{{!ok1}}" style="width: 43.5%" class="input1" name="instruction1" bindinput="Instruction1Input"/>
+    <input hidden="{{!ok2}}" style="width: 43.5%" class="input2" name="instruction2" bindinput="Instruction2Input"/>
+    <input hidden="{{!ok3}}" style="width: 43.5%" class="input3" name="instruction3" bindinput="Instruction3Input"/>
+    <input hidden="{{!ok4}}" style="width: 43.5%" class="input4" name="instruction4" bindinput="Instruction4Input"/>
+    <input hidden="{{!ok6}}" style="width: 43.5%" class="input6" name="instruction6" bindinput="Instruction6Input"/>
+    <input hidden="{{!ok9}}" style="width: 43.5%" class="input9" name="instruction9" bindinput="Instruction9Input"/>
+    <input hidden="{{!ok10}}" style="width: 43.5%" class="input10" name="instruction10" bindinput="Instruction10Input"/>
+    <button hidden="{{!ok1}}"class="ok1button" bindtap="go_ok2" style="width: 2%;">OK</button>
+    <button hidden="{{!ok2}}"class="ok2button" bindtap="go_ok3" style="width: 2%;">OK</button>
+    <button hidden="{{!ok3}}"class="ok3button" bindtap="go_ok4" style="width: 2%;">OK</button>
+    <button hidden="{{!ok4}}"class="ok4button" bindtap="go_ok5" style="width: 2%;">OK</button>
+    <button hidden="{{!ok5}}"class="ok5button" bindtap="go_ok6" style="width: 2%;">OK</button>
+    <button hidden="{{!ok6}}"class="ok6button" bindtap="go_ok7" style="width: 2%;">OK</button>
+    <button hidden="{{!ok7}}"class="ok7button" bindtap="go_ok8" style="width: 2%;">OK</button>
+    <button hidden="{{!ok8}}"class="ok8button" bindtap="go_ok9" style="width: 2%;">OK</button>
+    <button hidden="{{!ok9}}"class="ok9button" bindtap="go_ok10" style="width: 2%;">OK</button>
+    <button hidden="{{!ok10}}"class="ok10button" bindtap="go_ok11" style="width: 2%;">OK</button>
+    <text hidden="{{!ok1}}"class="annotation1">输入mkdir learngit（创建learngit文件夹存放个人git项目仓库）</text>
+    <text hidden="{{!ok2}}"class="annotation2">输入cd learngit</text>
+    <text hidden="{{!ok3}}"class="annotation3">输入pwd（会出现仓库的位置）</text>
+    <text hidden="{{!ok4}}"class="annotation4">输入git init（把这个目录变成Git可以管理的仓库）</text>
+    <text hidden="{{!ok5}}"class="annotation5">仓库创建完成点击 OK 按钮进入下一页</text>
+    <text hidden="{{!ok6}}"class="annotation6">输入vi readme.txt（编写一个readme.txt文件）</text>
+    <text hidden="{{!ok8}}"class="annotation8">在此页面编写文件内容，文件完成后点击 OK 按钮，readme.txt文件编写成功</text>
+    <text hidden="{{!ok9}}"class="annotation9">输入git add readme.txt（用命令git add告诉Git，把文件添加到仓库）</text>
+    <text hidden="{{!ok10}}"class="annotation10"> 输入git commit -m "wrote a readme file"（用命令git commit告诉Git，把文件提交到仓库，-m后面输入的是本次提交的说明，可以输入任意内容）</text>
+    <view class="wrapper" style="left: {{left}}; top: {{top}};">
+        <view class="circle"><image style="width: 14.2px; height: 16.2px;" src="cloud://cloud1-1gh5zqh504de0f8e.636c-cloud1-1gh5zqh504de0f8e-1307731605/image/shou2.png"></image></view>
+        <view class="finger"><image style="width: 18px; height: 22px;" src="cloud://cloud1-1gh5zqh504de0f8e.636c-cloud1-1gh5zqh504de0f8e-1307731605/image/shou1.png"></image></view>
+    </view>
+  </scroll-view> 
+</view>
+<!-- 遮罩层 --> 
+<view class="mask" wx:if="{{showModal}}"></view> 
+<!-- 弹出层 --> 
+<view class="modalDlg" wx:if="{{showModal}}"> 
+<!-- 二维码或其他图片 -->
+  <image class="image1" src="../image/cat.jpg" mode='aspectFill'></image>
+  <image class="image2" src="../image/logo.jpg" mode='aspectFill'></image> 
+
+  <view class="test">恭喜你完成本次教学内容</view> 
+  <view class="flex-around"style="width:100%">       
+    <view bindtap="cancel" class="btn cancel">Again</view> 
+    <view bindtap="confirm" class="btn confirm">OK</view> 
+  </view> 
+ </view>

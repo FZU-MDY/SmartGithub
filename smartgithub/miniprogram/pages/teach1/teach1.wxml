@@ -1,0 +1,18 @@
+<view class="background">
+  <scroll-view scroll-y="true" style="height: 100%;" >
+    <image class="background_image" wx:if="{{settings}}" src="http://r.photo.store.qq.com/psc?/V13o297P0pKsa6/45NBuzDIW489QBoVep5mcYfNNAVirzKKnGZ*Re398bUECAtqAuhTMg2Z8ElUCJdoH4SDae0mhSiaXFNzrOK.lzLgVQwv4fYE0AigW3WBhdo!/r" mode="widthFix">
+      <text class="word">请先输入邮箱地址，后点击此按钮</text>
+    </image> 
+
+    <view class="wrapper" style="left: 41%; top: 65%;">
+        <view class="circle"><image style="width: 14.2px; height: 16.2px;" src="cloud://cloud1-1gh5zqh504de0f8e.636c-cloud1-1gh5zqh504de0f8e-1307731605/image/shou2.png"></image></view>
+        <view class="finger"><image style="width: 18px; height: 22px;" src="cloud://cloud1-1gh5zqh504de0f8e.636c-cloud1-1gh5zqh504de0f8e-1307731605/image/shou1.png"></image></view>
+    </view>
+    <view>
+      <button bindtap="goinfo" style="position:absolute;background:rgb(218, 188, 154);width: 14%;top:61.5%;left: 30%;height:6.8%;color: white;border: 1px solid red;border-radius: 2px;background-color:transparent;"></button>   
+    </view>
+    <view style="position:absolute;background:rgb(218, 188, 154);width: 24.5%;top:61.5%;left: 4.5%;height:6%;color: white;border: 1px solid red;border-radius: 2px;background-color:transparent;">
+    <input class="input1"  style="text-align: left;vertical-align: middle;" placeholder="cj2480928352@163.com"  placeholder-class="bgc"value="{{contentInput}}"  bindinput='EmailInput'></input>
+    </view>
+  </scroll-view> 
+</view>

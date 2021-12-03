@@ -1,0 +1,71 @@
+/**index.wxss**/
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #aaa;
+}
+
+.userinfo-avatar {
+  overflow: hidden;
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.usermotto {
+  margin-top: 200px;
+}
+.pic1-2 {
+  width: 13%;
+  height:8%;
+  position: absolute;
+  top: 10%;
+  left:80%;
+}
+.pic1-1 {
+  width:100%;
+  filter: brightness(75%);
+}
+.shou1{
+  position: absolute;
+  top: 13%;
+  left:88%;
+  height:12%;
+  width:4%;
+  animation: fingerHandle 1s ease infinite both;
+}
+.shou2{
+  position: absolute;
+  top: 10%;
+  left:88%;
+  height:6%;
+  width:3%;
+  animation: circleHide 1s ease infinite both;
+}
+@keyframes fingerHandle {
+  0% {
+      transform: none;
+  }
+  70% {
+      transform: scale3d(.8, .8, .8);
+  }
+  100% {
+      transform: none;
+  }
+}
+@keyframes circleHide {
+  0% {
+      opacity: 0;
+      transform: scale3d(0, 0, 0);
+  }
+  70% {
+      opacity: 1;
+      transform: scale3d(1.0, 1.0, 1.0);
+  }
+  100% {
+      opacity: 0;
+      transform: scale3d(0, 0, 0);
+  }
+}

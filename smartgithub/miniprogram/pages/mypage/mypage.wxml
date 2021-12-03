@@ -1,0 +1,66 @@
+<!--pages/mypage/mypage.wxml-->
+
+<view>
+<image class="bg-image" mode="scaleToFill" src="http://r.photo.store.qq.com/psc?/V13o297P0pKsa6/45NBuzDIW489QBoVep5mcRCTnuQAMH0zq4JdHDzfoODgN3qYW*6YU8HX3dQKGZkzR.wGG26HbHb3o1g4eNAqs5mDFyPnVxyNqvRjq33BQdI!/r"></image>
+</view>
+<view class='wraper'>
+<!--
+<view>
+  <button bindtap="go2about" style="position:absolute;background:white;width: 90%;margin-top:63%;margin-left: 5%;color: #5E7972;border-radius: 50rpx;  font-size: 120%;">关于我们</button>   
+</view>
+
+
+-->
+
+<view wx:if="{{!flag}}">
+  <view class='imagesize'>
+  <image src="http://r.photo.store.qq.com/psc?/V13o297P0pKsa6/45NBuzDIW489QBoVep5mcQKiBRDhCbXaNb4JOmPE2T*Y5tn4KLN26PX6vr4kttAKBAyzFFRIzN5ncHILAxqCmQecxORRi98*pIPj07V51jY!/r" class='in-image'   >
+  </image></view>
+  <input class="input1" name="userT" placeholder="此处输入GitHub用户名"placeholder-style="text-align: center;color:#5E7972;" style="text-align: center;"
+    bindinput="usertoken"/>
+<input class="input2"  placeholder="此处输入token" placeholder-style="text-align: center;color:#5E7972;" style="text-align: center;"bindinput="token"/>
+    <view class="divLineX"></view>
+
+<button class="login" bindtap='houduanButton1'>登录</button>
+<view class="divLineX1"></view>
+
+  <view class="linkcopy">
+            <text bindtap='copyText' data-text="{{contents}}">点击此处复制TOKEN获取链接，并用手机浏览器打开</text>
+         </view>
+        </view>
+
+
+
+      <view wx:if="{{flag}}">
+      
+        <view wx:if="{{list}}">
+        <view class="header">
+    <image class='image1'src="{{imagine}}"></image> 
+    <view style="color:#5E7972;">{{list}} </view></view>
+    <!--{{gitname}}
+-->    <view class="main">
+    <scroll-view class="main-scroll" scroll-y="true" style="height: 800rpx">
+      <view class="main-list">
+    <view wx:for="{{list1}}">
+      <view >
+<button data-a="{{item.name}}"class="bt1" style="width:90%" bindtap="go2repo1">
+   
+      <text class="type11"  style="width:90%" >{{item.full_name}}</text>
+      <text style="font-size: 90%;color: #5E7972; text-align: center;">\n {{item.description}}</text>
+      <text style="font-size: 90%;color: #B78781; text-align: center;">\n updated {{item.updated_at}}</text></button></view>
+     <!-- <view >地址：{{item.html_url}}</view>-->
+    </view>
+      </view>
+  </scroll-view>
+  </view>
+</view>
+
+  <button class="unlogin" bindtap='unlogin'>退出登录</button>
+  <button class="about" bindtap='go2about'>关于我们</button>
+
+    </view>  
+
+
+    </view>
+
+    

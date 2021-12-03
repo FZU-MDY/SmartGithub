@@ -1,0 +1,33 @@
+<view class="background">
+  <scroll-view scroll-y="true" style="height: 100%;" >
+    <image class="background_image" wx:if="{{settings}}" src="cloud://cloud1-1gh5zqh504de0f8e.636c-cloud1-1gh5zqh504de0f8e-1307731605/image/bg1.png" mode="widthFix"></image>
+    <image class="background_image" wx:if="{{organization}}" src="cloud://cloud1-1gh5zqh504de0f8e.636c-cloud1-1gh5zqh504de0f8e-1307731605/image/bg2.png" mode="widthFix"></image>
+    <image class="background_image" wx:if="{{new_organization}}" src="cloud://cloud1-1gh5zqh504de0f8e.636c-cloud1-1gh5zqh504de0f8e-1307731605/image/bg3.png" mode="widthFix"></image>
+    <image class="background_image" wx:if="{{create_organization}}" src="cloud://cloud1-1gh5zqh504de0f8e.636c-cloud1-1gh5zqh504de0f8e-1307731605/image/bg4.png" mode="widthFix"></image>
+    <image class="background_image" wx:if="{{set_organization}}" src="cloud://cloud1-1gh5zqh504de0f8e.636c-cloud1-1gh5zqh504de0f8e-1307731605/image/bg5.png" mode="widthFix"></image>
+    <image class="background_image" wx:if="{{finish_organization}}" src="cloud://cloud1-1gh5zqh504de0f8e.636c-cloud1-1gh5zqh504de0f8e-1307731605/image/bg6.png" mode="widthFix" bindtap="go_invite"></image>
+    
+    <button hidden="{{!settings}}" style="width: 15%;" class="Settings" bindtap="go_organization"><text>Settings</text>
+    </button>
+    <button hidden="{{!organization}}" style="width: 18.2%;" class="organization" bindtap="go_new_organization"><text>Orgainzations</text>
+    </button>
+    <button hidden="{{!new_organization}}" style="width: 15%;" class="new_organization" bindtap="go_create_organization"><text>New orgainzation</text>
+    </button>
+    <text hidden="{{!new_organization}}" class="new_text">点击创建团队组织</text>
+    <button hidden="{{!create_organization}}" style="width: 25%;" class="create_organization" bindtap="go_set_organization"><text>Create a free  orgainzation</text>
+    </button>
+    <input hidden="{{!set_organization}}" style="width: 43.9%;" class="input_name" name="name"
+    bindinput ="NameInput"/>
+    <text hidden="{{!set_organization}}" class="text_name">输入组织名称“MDY-TEAM”</text>
+    <input hidden="{{!set_organization}}" style="width: 43.9%;" class="input_email" name="email"
+    bindinput ="EmailInput"/>
+    <text hidden="{{!set_organization}}" class="text_email">输入邮箱“cj2480928352@163.com”</text>
+    <button hidden="{{!set_organization}}" style="width: 45%;" class="set_organization" bindtap="go_finish_organization"><text class="button_text">Next</text> 
+    </button>
+
+    <view class="wrapper" style="left: {{left}}; top: {{top}};">
+        <view class="circle"><image style="width: 14.2px; height: 16.2px;" src="cloud://cloud1-1gh5zqh504de0f8e.636c-cloud1-1gh5zqh504de0f8e-1307731605/image/shou2.png"></image></view>
+        <view class="finger"><image style="width: 18px; height: 22px;" src="cloud://cloud1-1gh5zqh504de0f8e.636c-cloud1-1gh5zqh504de0f8e-1307731605/image/shou1.png"></image></view>
+    </view>
+  </scroll-view> 
+</view>

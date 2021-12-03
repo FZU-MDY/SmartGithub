@@ -1,0 +1,28 @@
+<!--pages/info/info.wxml-->
+<view>
+  <scroll-view scroll-y="true" style="height: 100%;" >
+    <image class="background_image" src="http://r.photo.store.qq.com/psc?/V13o297P0pKsa6/45NBuzDIW489QBoVep5mcYfNNAVirzKKnGZ*Re398bUHjcRAYCH2onG5ko8RvPFsC5I1CNeuHqpgjI4F35bZWe0885d*6sny*oh8CLX859Q!/r" mode="widthFix">
+    </image>
+
+    <view style="position:absolute;background:rgb(218, 188, 154);width: 30%;top:31%;left:33%;height:5%;color: white;border: 1px solid red;border-radius: 2px;background-color:transparent;">
+    <input class="input1"  style="text-align: left;vertical-align: middle;" placeholder="输入邮箱:cj2480928352@163.com"  placeholder-class="bgc" value="{{contentInput}}"  bindinput='EmailInput'></input>
+    </view>
+
+    <view style="position:absolute;background:rgb(218, 188, 154);width: 30%;top:40%;left:33%;height:5%;color: white;border: 1px solid red;border-radius: 2px;background-color:transparent;">
+    <input class="input1"  style="text-align: left;vertical-align: middle;" placeholder="设置密码:user123."value="{{userPW}}" bindblur='PwInput'placeholder-class="bgc"></input>
+    </view>
+
+    <view style="position:absolute;background:rgb(218, 188, 154);width: 30%;top:48.5%;left:33%;height:5%;color: white;border: 1px solid red;border-radius: 2px;background-color:transparent;">
+    <input class="input1"  style="text-align: left;vertical-align: middle;"  placeholder="设置用户名:MDY-TEAM" value="{{userName}}" bindblur='NameInput' placeholder-class="bgc"></input>
+    </view>
+
+    <view style="position:absolute;background:rgb(218, 188, 154);width: 30%;top:63%;left:33%;height:5%;color: white;border: 1px solid red;border-radius: 2px;background-color:transparent;">
+    <input class="input1"  style="text-align: left;vertical-align: middle;" placeholder="是否希望通过电子邮件接收产品更新通知" placeholder-class="bgc" bindblur='NeedInput'></input>
+    </view>
+
+    <view>
+      <button bindtap="goverify" style="position:absolute;background:rgb(218, 188, 154);width: 34%;top:81.6%;left: 33%;height:4.8%;color: white;border: 1px solid red;border-radius: 2px;background-color:transparent;"></button>   
+    </view>
+
+  </scroll-view>
+</view>
