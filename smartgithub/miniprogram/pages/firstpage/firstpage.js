@@ -1,4 +1,4 @@
-// pages/firstpage/firstpage.js
+// pages/first/first.js
 var app=getApp();
 Page({
 
@@ -23,10 +23,19 @@ Page({
     that.setData({
       flag:null
     })
+    var lang=that.data.lselectData[that.data.lindex];
+    var since=that.data.tselectData[that.data.tindex];
+    var time=0;
+    if(since=='weekly')
+    {time=20}
+    if(since=='daily')
+    {time=30}
+    if(since=='monthly')
+    {time=1}
     wx.cloud.callFunction({
       name: "search2",   //云函数中文件夹的名称
       data: {
-        language:that.data.lselectData[that.data.lindex]
+        content:lang+" pushed:>2021-11-"+time
       },
       success: function (res)  {
         var list=JSON.parse(res.result)
