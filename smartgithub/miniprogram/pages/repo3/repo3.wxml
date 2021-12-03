@@ -7,5 +7,5 @@
  </view>
 <button wx:if="{{flag}}"bindtap="click"style="position:absolute;background:white;width: 90%;margin-top:15%;margin-left: 5%;color: #5E7972;border-radius: 50rpx;  font-size: 100%;">加载</button>
 <view wx:if="{{!flag}}" >
-  <view class="type11">{{content}}</view>
+  <text class="type11">{{content}}</text>
 </view>
