@@ -6,7 +6,7 @@
   z-index: -1;
 }
 .input1{
-  top: 25%;
+  top: 31%;
   position:fixed;
   color: #5E7972;
   font-size: 120%;
@@ -23,7 +23,7 @@ height: auto;
  
 }
 .input2{
-  top: 35%;
+  top: 41%;
   position:fixed;
   color: #5E7972;
   font-size: 120%;
@@ -77,7 +77,7 @@ line-height: 200%;
   height: 110px;                    
   justify-content: center;        
   align-items:center;   
-  margin-top: 10%;            
+  margin-top: 5%;            
   
  }
  .imagesize image { 
@@ -251,4 +251,17 @@ z-index: 999;
          
     
      }
-    
+     .help[plain]{
+      border: none;
+      border-color: transparent;
+     width:2%;
+        border-radius: 50%; 
+    }
+    .help image{
+      margin-left:-5%;
+      position: fixed;
+      display: flex;
+      opacity:60%;
+      width: 10%;
+      height: 5%;
+    }

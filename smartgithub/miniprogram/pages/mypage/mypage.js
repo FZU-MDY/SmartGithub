@@ -145,6 +145,12 @@ Page({
       url: '/pages/favorpage/favorpage',
  
       })
+  },
+  help:function(){
+    wx.navigateTo({
+      url: '/pages/help/help',
+ 
+      })
   }
 
 })

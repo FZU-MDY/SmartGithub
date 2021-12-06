@@ -13,6 +13,10 @@
 -->
 
 <view wx:if="{{!flag}}">
+  <button  bindtap='help' plain='true'class="help"style="width:10%; height:80rpx;border-radius:50%; margin-left:85%;margin-top:2%;border:none;border-color:transparent;">
+<image mode='aspectFill'src="/pages/mypage/帮助.png" > 
+</image>
+</button>
   <view class='imagesize'>
   <image src="http://r.photo.store.qq.com/psc?/V13o297P0pKsa6/45NBuzDIW489QBoVep5mcQKiBRDhCbXaNb4JOmPE2T*Y5tn4KLN26PX6vr4kttAKBAyzFFRIzN5ncHILAxqCmQecxORRi98*pIPj07V51jY!/r" class='in-image'   >
   </image></view>
