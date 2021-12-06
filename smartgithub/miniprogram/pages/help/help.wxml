@@ -1,0 +1,25 @@
+<!--pages/help/help.wxml-->
+<view>
+<image class="bg-image" mode="scaleToFill" src="http://r.photo.store.qq.com/psc?/V13o297P0pKsa6/45NBuzDIW489QBoVep5mcRCTnuQAMH0zq4JdHDzfoODmyao0*oJ6nZXWVWdxCB.HPeZCQ*FeyB.Hfj.6nwt0WYIxX8tx75csf32tLQ9sX0c!/r"></image>
+</view>
+<text class="text">1、在如图位置输入用户名\n 
+  然后点击 复制下面链接，用手机浏览器打开网址</text>
+<view class="hl0">
+<image class="image"mode='widthFix'src="1.png"></image>
+</view > 
+
+<text class="text">2、在网页登录GitHub后，翻到最下面点击“Generate token”按钮生成token</text>
+<view class="hl">
+<image class="image"mode='widthFix'src="4.jpg"></image>
+</view>
+<text class="text">4、复制这里的token后返回小程序，将其输入指定输入框中\n然后点击登录按钮</text>
+<view class="hl">
+<image class="image"mode='widthFix'src="5.jpg"></image>
+</view>
+<view class="hl">
+<image class="image"mode='widthFix'src="2.png"></image>
+</view>
+<text class="text">5、这样就登录完成啦</text>
+<view class="hl">
+<image class="image"mode='widthFix'src="3.png"></image>
+</view>
